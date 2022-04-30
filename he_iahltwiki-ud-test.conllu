@@ -1,7 +1,7 @@
 # newdoc id = iahltwiki_dialysis
 # meta::domain = health
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%90%D7%9C%D7%99%D7%96%D7%94
-# meta::title = UNKNOWN
+# meta::title = דיאליזה
 # newpar
 # sent_id = iahltwiki_dialysis-1
 # text = ברפואה, דיאליזה (באנגלית: Dialysis) היא תהליך המיועד להחליף את הכליות ולבצע את תפקידן, במקרה שאלו חדלות לתפקד, בין אם כתוצאה מאי ספיקת כליות חריפה או כתוצאה מאי ספיקת כליות כרונית.
@@ -1717,7 +1717,7 @@
 # newdoc id = iahltwiki_lifta
 # meta::domain = place
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%A4%D7%AA%D7%90_(%D7%9E%D7%A2%D7%99%D7%99%D7%9F)
-# meta::title = UNKNOWN
+# meta::title = ליפתא (מעיין)
 # newpar
 # sent_id = iahltwiki_lifta-1
 # text = ליפתא הוא מעיין שכבה ב"מי נפתוח" במערב ירושלים.
@@ -6529,13 +6529,12 @@
 # newdoc id = iahltwiki_ribit-bank-israel
 # meta::domain = finance
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%91%D7%99%D7%AA_%D7%91%D7%A0%D7%A7_%D7%99%D7%A9%D7%A8%D7%90%D7%9C
-# meta::title = UNKNOWN
+# meta::title = ריבית בנק ישראל
 # newpar
 # sent_id = iahltwiki_ribit-bank-israel-1
-# text = ריבית בנק ישראלהיא אמצע המרווח שבין שיעור הריבית שבו מלווה בנק ישראל כסף לבנקים המסחריים לבין שיעור הריבית שבו בנק ישראל לווה כסף מהבנקים המסחריים.
+# text = ריבית בנק ישראל היא אמצע המרווח שבין שיעור הריבית שבו מלווה בנק ישראל כסף לבנקים המסחריים לבין שיעור הריבית שבו בנק ישראל לווה כסף מהבנקים המסחריים.
 1	ריבית	ריבית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	בנק	בנק	PROPN	PROPN	Definite=Cons	1	compound	_	_
-3-4	ישראלהיא	_	_	_	_	_	_	_	_
 3	ישראל	ישראל	PROPN	PROPN	_	2	compound	_	_
 4	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	5	cop	_	_
 5	אמצע	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
@@ -6862,7 +6861,7 @@
 # newdoc id = iahltwiki_hameila-babank-lemishar
 # meta::domain = event
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%A2%D7%99%D7%9C%D7%94_%D7%91%D7%91%D7%A0%D7%A7_%D7%9C%D7%9E%D7%A1%D7%97%D7%A8
-# meta::title = UNKNOWN
+# meta::title = המעילה בבנק למסחר
 # newpar
 # sent_id = iahltwiki_hameila-babank-lemishar-1
 # text = המעילה בבנק למסחר(נקראת גם "פרשת אתי אלון") התרחשה בשנים 1997–2002, ובמסגרתה מעלה עובדת הבנק למסחר, אתי אלון, בכספי הבנק בהיקפי ענק שהביאו לקריסתו.
@@ -10416,7 +10415,7 @@
 # newdoc id = iahltwiki_psak-din-hendelman
 # meta::domain = law
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%A1%D7%A7_%D7%93%D7%99%D7%9F_%D7%94%D7%A0%D7%93%D7%9C%D7%9E%D7%9F
-# meta::title = UNKNOWN
+# meta::title = פסק דין הנדלמן
 # newpar
 # sent_id = iahltwiki_psak-din-hendelman-1
 # text = פסק דין הנדלמןניתן בבית משפט השלום תל אביב-יפו, על ידי השופט דוד רוזן, ובו נקבע שפקודת מס הכנסה אינה אוסרת ייעוץ מס שאינו מלווה בייצוג בפני רשות המיסים, בידי מי שאינו רשום בפנקס יועצי המס.
@@ -12405,12 +12404,12 @@
 # newdoc id = iahltwiki_shoshana-damary
 # meta::domain = biography
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A9%D7%95%D7%A9%D7%A0%D7%94_%D7%93%D7%9E%D7%90%D7%A8%D7%99
-# meta::title = UNKNOWN
+# meta::title = שושנה דמארי
 # newpar
 # sent_id = iahltwiki_shoshana-damary-1
-# text = שושנה דמארי(31 במרץ 1923‏ – 14 בפברואר 2006) הייתה זמרת ושחקנית ישראלית-ילידת תימן, כלת פרס ישראל לשנת תשמ"ח (1988), שזכתה לכינוי "מלכת הזמר העברי".
+# text = שושנה דמארי (31 במרץ 1923‏ – 14 בפברואר 2006) הייתה זמרת ושחקנית ישראלית-ילידת תימן, כלת פרס ישראל לשנת תשמ"ח (1988), שזכתה לכינוי "מלכת הזמר העברי".
 1	שושנה	שושנה	PROPN	PROPN	_	15	nsubj	_	_
-2	דמארי	דמארי	PROPN	PROPN	_	1	flat	_	SpaceAfter=No
+2	דמארי	דמארי	PROPN	PROPN	_	1	flat	_	_
 3	(	(	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 4	31	31	NUM	NUM	_	1	parataxis	_	_
 5-6	במרץ	_	_	_	_	_	_	_	_

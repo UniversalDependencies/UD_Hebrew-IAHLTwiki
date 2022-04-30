@@ -1,7 +1,7 @@
 # newdoc id = iahltwiki_fresh-frozen-plasma
 # meta::domain = health
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A8%D7%95%D7%99_%D7%A4%D7%9C%D7%96%D7%9E%D7%94
-# meta::title = UNKNOWN
+# meta::title = עירוי פלזמה
 # newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-1
 # text = עירוי פלזמה משמש לטיפול במצבים בהם קיימות רמות נמוכות בדם של גורמי קרישה (INR>1.5) או רמות נמוכות של חלבוני דם אחרים, ומשמש גם כחלק מחילוף פלזמה.
@@ -1747,7 +1747,7 @@
 # newdoc id = iahltwiki_bird-mosaic
 # meta::domain = place
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%A1%D7%99%D7%A4%D7%A1_%D7%94%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D_(%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D)
-# meta::title = UNKNOWN
+# meta::title = פסיפס הציפורים (ירושלים)
 # newpar
 # sent_id = iahltwiki_bird-mosaic-1
 # text = פסיפס הציפורים הוא פסיפס ייחודי המעטר רצפת חדר בכנסייה ארמנית המתוארכת למאה הששית, וממוקמת כ-350 מטרים צפונית לשער שכם בירושלים.
@@ -4766,7 +4766,7 @@
 # newdoc id = iahltwiki_mas-revah-hon
 # meta::domain = finance
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%9E%D7%A1_%D7%A8%D7%95%D7%95%D7%97_%D7%94%D7%95%D7%9F
-# meta::title = UNKNOWN
+# meta::title = מס רווח הון
 # newpar
 # sent_id = iahltwiki_mas-revah-hon-1
 # text = מס רווח הוןהוא מס המוטל על ישות המוכרת נכס תוך גידול בהון שלה; גידול הון זה מבוסס על ההפרש שבין תמורה שהתקבלה על מכירת נכס לבין המחיר בו נרכש במקור ("יתרת המחיר המקורי").
@@ -5839,7 +5839,7 @@
 # newdoc id = iahltwiki_reidat-haadama-bemifratz-eilat-1995
 # meta::domain = event
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A8%D7%A2%D7%99%D7%93%D7%AA_%D7%94%D7%90%D7%93%D7%9E%D7%94_%D7%91%D7%9E%D7%A4%D7%A8%D7%A5_%D7%90%D7%99%D7%9C%D7%AA_(1995)
-# meta::title = UNKNOWN
+# meta::title = רעידת האדמה במפרץ אילת (1995)
 # newpar
 # sent_id = iahltwiki_reidat-haadama-bemifratz-eilat-1995-1
 # text = רעידת האדמה במפרץ אילת בשנת 1995 הייתה רעידת אדמה אשר התרחשה ב-22 בנובמבר 1995 בשעה 06:15 (זמן מקומי) באזור מפרץ אילת, כ-150 קילומטר דרומית לאילת.
@@ -6321,12 +6321,11 @@
 # newdoc id = iahltwiki_piskat-hitgabrut
 # meta::domain = law
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%A1%D7%A7%D7%AA_%D7%94%D7%AA%D7%92%D7%91%D7%A8%D7%95%D7%AA
-# meta::title = UNKNOWN
+# meta::title = פסקת התגברות
 # newpar
 # sent_id = iahltwiki_piskat-hitgabrut-1
-# text = פסקת התגברותהיא סעיף בחוק יסוד המאפשר לכנסת לתת תוקף לחקיקה הסותרת חוק יסוד זה.
+# text = פסקת התגברות היא סעיף בחוק יסוד המאפשר לכנסת לתת תוקף לחקיקה הסותרת חוק יסוד זה.
 1	פסקת	פסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
-2-3	התגברותהיא	_	_	_	_	_	_	_	_
 2	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	_
 3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
 4	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -10413,7 +10412,7 @@
 # newdoc id = iahltwiki_mendele
 # meta::domain = biography
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%93%D7%9C%D7%99_%D7%9E%D7%95%D7%9B%D7%A8_%D7%A1%D7%A4%D7%A8%D7%99%D7%9D
-# meta::title = UNKNOWN
+# meta::title = מנדלי מוכר ספרים
 # newpar
 # sent_id = iahltwiki_mendele-1
 # text = שלום יעקב אברמוביץ', הידוע בשם העט מנדלי מוכר ספרים (ביידיש: מענדעלע, קרי "מֶנְדֶלֶה מוֹיְכֶֿר סְפֿוֹרִים", ברוסית: Соломон Моисеевич Абрамович;‏ 2 בינואר 1836 יוליאני: 21 בדצמבר 1835‏‏ – 8 בדצמבר יוליאני: 25 בנובמבר‏ 1917), היה מחשובי סופרי היידיש והעברית בעת החדשה.
