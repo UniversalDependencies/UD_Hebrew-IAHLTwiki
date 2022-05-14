@@ -1,0 +1,44 @@
+Running the following version of UD tools:
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
+Evaluating the following revision of UD_Hebrew-IAHLTwiki:
+commit c0c993f321708812bfa49708bf164f92c3a7629e
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 12:38:51 2022 +0200
+Size: counted 140949 of 140949 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.89679624564103.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 81513 out of 140949 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 35 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL      10079
+Udapi: found 10079 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 140949 words.
+Genres: found 1 out of 17 known.
+validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-dev.conllu
+*** PASSED ***
+validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-test.conllu
+*** PASSED ***
+validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.71635399966712) = 0.183680512735159
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.284918658521877) = 0.0876672795451928
+(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
+(TOTAL score=0.60924107017363) * (availability=1) * (validity=1) = 0.60924107017363
+STARS = 3
+UD_Hebrew-IAHLTwiki	0.60924107017363	3
