@@ -10128,7 +10128,7 @@
 6	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	אסתר	אסתר	PROPN	PROPN	_	1	appos	_	_
-9	חיות	חיה	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
+9	חיות	חיות	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	1	punct	_	_
 11	התנגדה	התנגד	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 12-13	למהלך	_	_	_	_	_	_	_	_
