@@ -1186,9 +1186,9 @@
 
 # newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-45
-# text = שימושבישראל
-1-3	שימושבישראל	_	_	_	_	_	_	_	_
+# text = שימוש בישראל
 1	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2-3	בישראל	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
 3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	_
 
