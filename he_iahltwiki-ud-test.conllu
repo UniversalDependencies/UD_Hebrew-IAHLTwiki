@@ -2108,8 +2108,8 @@
 11	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 12	שמורת	שמורה	PROPN	PROPN	Definite=Cons	8	nmod	_	_
 13	טבע	טבע	PROPN	PROPN	_	12	compound	_	_
-14	מי	מים	PROPN	PROPN	Definite=Cons	12	compound	_	_
-15	נפתוח	נפתוח	PROPN	PROPN	_	14	fixed	_	SpaceAfter=No
+14	מי	מים	PROPN	PROPN	Definite=Cons	12	appos	_	_
+15	נפתוח	נפתוח	PROPN	PROPN	_	14	compound	_	SpaceAfter=No
 16	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	7	punct	_	_
 

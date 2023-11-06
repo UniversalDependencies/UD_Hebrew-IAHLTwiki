@@ -18,7 +18,7 @@
     <tag name="ADJ">8711</tag><!-- רב, נוסף, ראשון, עליון, יהודי, ישראלי, שונה, אחר, גדול, חדש -->
     <tag name="ADP">23005</tag><!-- ב, ל, של, מ, את, על, כ, עם, בין, לאחר -->
     <tag name="ADV">3529</tag><!-- לא, גם, כ, יותר, כן, רק, אף, ביותר, אז, עוד -->
-    <tag name="AUX">956</tag><!-- היה, אינו, יכל, עלול, צריך, עשוי, אמור, רשאי, מוכן, מסוגל -->
+    <tag name="AUX">961</tag><!-- היה, אינו, יכל, עלול, צריך, עשוי, אמור, רשאי, מוכן, מסוגל -->
     <tag name="CCONJ">4706</tag><!-- ו, או, אך, אולם, אלא, אבל, אף, אילו, וַ, למשל -->
     <tag name="DET">14177</tag><!-- ה, כול, מספר, רוב, כמה, מרבית, עוד, כלל, מדי, שאר -->
     <tag name="INTJ">4</tag><!-- שלום, נא -->
@@ -29,14 +29,14 @@
     <tag name="PUNCT">16613</tag><!-- ,, ., ", -, ), (, :, –, ', ־ -->
     <tag name="SCONJ">4317</tag><!-- ש, ה, כי, אשר, אם, כאשר, כדי, כש, כיוון, ככל -->
     <tag name="SYM">146</tag><!-- %, –, -, /, =, +, :, °, &, ( -->
-    <tag name="VERB">10650</tag><!-- יש, כלל, ניתן, החל, היה, הגיע, כתב, יצא, קיבל, נמצא -->
+    <tag name="VERB">10645</tag><!-- יש, כלל, ניתן, החל, הגיע, היה, כתב, יצא, קיבל, נמצא -->
     <tag name="X">304</tag><!-- דו, מז'ור, מינור, סטטוס, קוו, GCS, the, ABA', ABABA', במול -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="50">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,PROPN">515</feat><!-- אונר"א, מק"ם, או"ם, דו"ח, בג"ץ, מעו"ף, ש"ח, צה"ל, ד"ר, נ"ט -->
     <feat name="Aspect" value="Prog" upos="VERB">47</feat><!-- ניתן, פוגעת, גורם, גורמים, דורכת, הולכת, הסעירה, ידוע, כותבים, כרוכה -->
-    <feat name="Case" value="Acc" upos="ADP,PRON">794</feat><!-- את, אות, ו, אותה, ם, אותו, ה, ני, אֶת, אֹת -->
+    <feat name="Case" value="Acc" upos="ADP,PRON">792</feat><!-- את, אות, ו, אותה, ם, אותו, ה, ני, אֶת, אֹת -->
     <feat name="Case" value="Gen" upos="ADP,PRON">4606</feat><!-- של, ו, ה, ם, הם, ן, הן, י, נו, ך -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,PROPN">10858</feat><!-- בית, שנת, ידי, פי, שנות, כל, שני, ארץ, סוג, ועדת -->
     <feat name="Definite" value="Def" upos="ADP,DET,PRON">18504</feat><!-- ה, ב, ו, ל, ם, אותה, הם, כ, ן, אותו -->
@@ -63,7 +63,7 @@
     <feat name="Person" value="2" upos="AUX,PRON,VERB">115</feat><!-- ך, אתה, סע, ראו, את, נחתם, באת, צא, בוכה, הכניסי -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">14527</feat><!-- ו, ה, הם, ם, הוא, זה, היה, היא, זו, היו -->
     <feat name="Polarity" value="Neg" upos="ADV,AUX,VERB">405</feat><!-- לא, אינו, אינה, אינם, אין, אינן, אי, בלתי, איננו, איננה -->
-    <feat name="Polarity" value="Pos" upos="AUX,PRON,VERB">873</feat><!-- היה, היו, הוא, היא, הייתה, יש, להיות, הם, ישנם, תהיה -->
+    <feat name="Polarity" value="Pos" upos="AUX,PRON,VERB">871</feat><!-- היה, היו, הוא, היא, הייתה, יש, להיות, הם, ישנם, תהיה -->
     <feat name="Poss" value="Yes" upos="PRON">2131</feat><!-- ו, ה, ם, הם, ן, הן, י, נו, ך, הּ -->
     <feat name="Prefix" value="Yes" upos="ADV,NUM">125</feat><!-- אי, בלתי, בטא, גראם, פוסט, תת, דו, בינ, דה, קדם -->
     <feat name="PronType" value="Art" upos="ADP,DET">16193</feat><!-- ה, ב, ל, כ, אל, אות, הַ, ְהַ, א, הָ -->
@@ -81,8 +81,8 @@
     <feat name="VerbForm" value="Part" upos="AUX,VERB">2730</feat><!-- ניתן, כולל, מדובר, מהווה, מכונה, יכול, נמצא, נראה, אינה, עולה -->
     <feat name="VerbType" value="Cop" upos="AUX">266</feat><!-- היה, הייתה, היו, תהיה, יהיה, להיות, יהיו, אינה, אינו, הייתי -->
     <feat name="VerbType" value="Mod" upos="AUX,VERB">139</feat><!-- ניתן, יכולים, אפשר, יכול, יכולה, יש, צריך, תוכל, עלול, עלולים -->
-    <feat name="Voice" value="Act" upos="VERB">6858</feat><!-- כתב, הלחין, יצא, זכה, החל, כולל, החלו, כלל, החלה, הוציא -->
-    <feat name="Voice" value="Mid" upos="VERB">1387</feat><!-- נמצא, נקרא, נראה, נערכה, נעשה, נחשב, נכללו, נמצאים, נוצר, להימנע -->
+    <feat name="Voice" value="Act" upos="VERB">6856</feat><!-- כתב, הלחין, יצא, זכה, החל, כולל, החלו, כלל, החלה, הוציא -->
+    <feat name="Voice" value="Mid" upos="VERB">1385</feat><!-- נמצא, נקרא, נראה, נערכה, נעשה, נחשב, נכללו, נמצאים, נוצר, להימנע -->
     <feat name="Voice" value="Pass" upos="VERB">1888</feat><!-- ניתן, מדובר, הוקמה, מכונה, נקבע, נעשה, הוקם, בוצעו, בוצע, נערך -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -92,16 +92,16 @@
     <dep name="advcl">673</dep>
     <dep name="advmod">3133</dep>
     <dep name="amod">7444</dep>
-    <dep name="appos">1703</dep>
+    <dep name="appos">1704</dep>
     <dep name="aux">411</dep>
     <dep name="case">22525</dep>
     <dep name="cc">4650</dep>
-    <dep name="ccomp">372</dep>
-    <dep name="compound">10379</dep>
+    <dep name="ccomp">371</dep>
+    <dep name="compound">10380</dep>
     <dep name="compound:affix">211</dep>
     <dep name="conj">5750</dep>
-    <dep name="cop">871</dep>
-    <dep name="csubj">200</dep>
+    <dep name="cop">877</dep>
+    <dep name="csubj">201</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="csubj:pass">82</dep>
     <dep name="dep">245</dep>
@@ -109,7 +109,7 @@
     <dep name="discourse">5</dep>
     <dep name="dislocated">24</dep>
     <dep name="expl">1</dep>
-    <dep name="fixed">1630</dep>
+    <dep name="fixed">1628</dep>
     <dep name="flat">1870</dep>
     <dep name="goeswith">1</dep>
     <dep name="list">15</dep>
@@ -118,11 +118,11 @@
     <dep name="nmod:npmod">43</dep>
     <dep name="nmod:poss">4459</dep>
     <dep name="nmod:tmod">356</dep>
-    <dep name="nsubj">5885</dep>
+    <dep name="nsubj">5888</dep>
     <dep name="nsubj:outer">92</dep>
     <dep name="nsubj:pass">860</dep>
     <dep name="nummod">1149</dep>
-    <dep name="obj">3037</dep>
+    <dep name="obj">3028</dep>
     <dep name="obl">10900</dep>
     <dep name="obl:npmod">14</dep>
     <dep name="obl:tmod">123</dep>
