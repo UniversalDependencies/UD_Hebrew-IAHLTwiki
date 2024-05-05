@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Hebrew-IAHLTwiki:
-commit de5b5eb874996cf4ff6e767fc435f03bc8ff0a4c
-Merge: 7407c7e ecece83
+commit 3f8499df36792e1f2ac63b1efb6c66b12c4a81a1
+Merge: 8c0a4a3 be02443
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 140950 of 140950 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.89681043512024.
