@@ -16,15 +16,17 @@ We would like to thank all the people who contributed to this corpus: Amir Zelde
 
 To cite this dataset please refer to the following paper:
 
-Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave of UD Hebrew Treebanking and Cross-Domain Parsing](https://arxiv.org/abs/2210.07873). In: *Proceedings of EMNLP 2022*. Abu Dhabi, UAE.
+Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave of UD Hebrew Treebanking and Cross-Domain Parsing](https://arxiv.org/abs/2210.07873). In: *Proceedings of EMNLP 2022*. Abu Dhabi, UAE, 4331-4344.
 
-```
+```bibtex
 @InProceedings{ZeldesHowellOrdanBenMoshe2022,
   author    = {Amir Zeldes and Nick Howell and Noam Ordan and Yifat Ben Moshe},
   booktitle = {Proceedings of {EMNLP} 2022},
-  title     = {A SecondWave of UD Hebrew Treebanking and Cross-Domain Parsing},
+  title     = {A Second Wave of {UD} {H}ebrew Treebanking and Cross-Domain Parsing},
   year      = {2022},
+  pages     = {4331--4344},
   address   = {Abu Dhabi, UAE},
+  url       = {https://aclanthology.org/2022.emnlp-main.292/},
 }
 ```
 
