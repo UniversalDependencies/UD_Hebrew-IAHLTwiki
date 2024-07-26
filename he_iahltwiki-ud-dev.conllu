@@ -213,7 +213,7 @@
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
 2	עירוי	עירוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 3	עשוי	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
-4	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:tmod	_	_
+4	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:unmarked	_	TemporalNPAdjunct=Yes
 5	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	4	amod	_	_
 6-7	מפלזמה	_	_	_	_	_	_	_	_
 6	מ	מ	ADP	ADP	_	7	case	_	_
@@ -1101,7 +1101,7 @@
 26	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	27	nummod	_	_
 27	יחידות	יחידה	NOUN	NOUN	Gender=Fem|Number=Plur	22	obl	_	_
 28	מדי	מדי	DET	DET	_	29	det	_	_
-29	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl:tmod	_	SpaceAfter=No
+29	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl:unmarked	_	SpaceAfter=No|TemporalNPAdjunct=Yes
 30	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = iahltwiki_fresh-frozen-plasma-43
@@ -2239,7 +2239,7 @@
 2-3	ליוני	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	_	1	fixed	_	_
 3	יוני	יוני	PROPN	PROPN	_	10	obl	_	Entity=(TIMEX
-4	2009	2009	NUM	NUM	_	3	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+4	2009	2009	NUM	NUM	_	3	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_
 6-7	הכניסה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
@@ -3778,7 +3778,7 @@
 18	ה	ה	SCONJ	SCONJ	_	19	mark	_	_
 19	נתונות	נתון	ADJ	ADJ	Gender=Fem|Number=Plur	5	acl:relcl	_	_
 20	כל	כול	DET	DET	Definite=Cons|PronType=Tot	21	det	_	_
-21	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	19	obl:npmod	_	_
+21	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing|NumType=Card	19	obl:unmarked	_	_
 22	בתוך	בתוך	ADP	ADP	_	23	case	_	_
 23	מדליון	מדליון	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -4211,7 +4211,7 @@
 1-2	באוגוסט	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	אוגוסט	אוגוסט	PROPN	PROPN	_	4	obl	_	Entity=(TIMEX
-3	2011	2011	NUM	NUM	_	2	nmod:tmod	_	Entity=TIMEX)
+3	2011	2011	NUM	NUM	_	2	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 4	דיווח	דיווח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5-6	הג'רוזלם	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	Entity=(ORG
@@ -4576,7 +4576,7 @@
 1-2	באוגוסט	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	אוגוסט	אוגוסט	PROPN	PROPN	_	11	obl	_	Entity=(TIMEX
-3	2016	2016	NUM	NUM	_	2	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+3	2016	2016	NUM	NUM	_	2	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 4	,	,	PUNCT	PUNCT	_	2	punct	_	_
 5	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
 6-7	הזכויות	_	_	_	_	_	_	_	_
@@ -5084,7 +5084,7 @@
 38-39	באוגוסט	_	_	_	_	_	_	_	_
 38	ב	ב	ADP	ADP	_	39	case	_	_
 39	אוגוסט	אוגוסט	PROPN	PROPN	_	37	obl	_	Entity=(TIMEX
-40	2015	2015	NUM	NUM	_	39	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+40	2015	2015	NUM	NUM	_	39	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 41	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # newpar
@@ -5188,7 +5188,7 @@
 5-6	בינואר	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	ינואר	ינואר	PROPN	PROPN	_	4	nmod	_	_
-7	2012	2012	NUM	NUM	_	4	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+7	2012	2012	NUM	NUM	_	4	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 8	,	,	PUNCT	PUNCT	_	4	punct	_	_
 9	מקזזים	קיזז	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 10	מנכי	מנכה	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -5429,7 +5429,7 @@
 17	אשר	אשר	SCONJ	SCONJ	_	18	mark	_	_
 18	מתעדכן	התעדכן	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part	12	acl:relcl	_	_
 19	מדי	מדי	DET	DET	_	20	det	_	_
-20	קנייה	קנייה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl:tmod	_	_
+20	קנייה	קנייה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl:unmarked	_	TemporalNPAdjunct=Yes
 21-22	לממוצע	_	_	_	_	_	_	_	_
 21	ל	ל	ADP	ADP	Definite=Def|PronType=Art	22	case	_	_
 22	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
@@ -5866,7 +5866,7 @@
 18-19	בנובמבר	_	_	_	_	_	_	_	_
 18	ב	ב	ADP	ADP	_	19	case	_	_
 19	נובמבר	נובמבר	PROPN	PROPN	_	17	nmod	_	_
-20	1995	1995	NUM	NUM	_	17	nmod:tmod	_	Entity=TIMEX)
+20	1995	1995	NUM	NUM	_	17	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 21-22	בשעה	_	_	_	_	_	_	_	_
 21	ב	ב	ADP	ADP	Definite=Def|PronType=Art	22	case	_	_
 22	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
@@ -7445,7 +7445,7 @@
 11-12	בפברואר	_	_	_	_	_	_	_	_
 11	ב	ב	ADP	ADP	_	12	case	_	_
 12	פברואר	פברואר	PROPN	PROPN	_	2	nmod	_	Entity=(TIMEX
-13	2007	2007	NUM	NUM	_	12	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+13	2007	2007	NUM	NUM	_	12	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 14	,	,	PUNCT	PUNCT	_	2	punct	_	_
 15	הועלה	הועלה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 16-17	הנושא	_	_	_	_	_	_	_	_
@@ -7615,7 +7615,7 @@
 # newpar
 # sent_id = iahltwiki_piskat-hitgabrut-32
 # text = פעמים אחדות הועלו בכנסת הצעות חוק פרטיות להוספת פסקת התגברות לחוק יסוד: כבוד האדם וחירותו.
-1	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:tmod	_	_
+1	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:unmarked	_	TemporalNPAdjunct=Yes
 2	אחדות	אחת	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	1	nummod	_	_
 3	הועלו	הועלה	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 4-5	בכנסת	_	_	_	_	_	_	_	_
@@ -7827,7 +7827,7 @@
 1-2	בספטמבר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	ספטמבר	ספטמבר	PROPN	PROPN	_	4	obl	_	Entity=(TIMEX
-3	2017	2017	NUM	NUM	_	2	nmod:tmod	_	Entity=TIMEX)
+3	2017	2017	NUM	NUM	_	2	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 4	פרסמו	פרסם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 5	שרת	שרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(TTL
 6-7	המשפטים	_	_	_	_	_	_	_	_
@@ -7880,7 +7880,7 @@
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	ראשית	ראשית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
 3	מאי	מאי	PROPN	PROPN	_	2	compound	_	Entity=(TIMEX
-4	2018	2018	NUM	NUM	_	3	nmod:tmod	_	Entity=TIMEX)
+4	2018	2018	NUM	NUM	_	3	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 5	אישרה	אישר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(ORG
 7-8	השרים	_	_	_	_	_	_	_	_
@@ -9442,7 +9442,7 @@
 20-21	באפריל	_	_	_	_	_	_	_	_
 20	ב	ב	ADP	ADP	_	21	case	_	_
 21	אפריל	אפריל	PROPN	PROPN	_	1	nmod	_	Entity=(TIMEX
-22	2018	2018	NUM	NUM	_	21	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+22	2018	2018	NUM	NUM	_	21	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 23	,	,	PUNCT	PUNCT	_	21	punct	_	_
 24	עוררה	עורר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 25	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
@@ -9843,7 +9843,7 @@
 12-13	בדצמבר	_	_	_	_	_	_	_	_
 12	ב	ב	ADP	ADP	_	13	case	_	_
 13	דצמבר	דצמבר	PROPN	PROPN	_	11	obl	_	Entity=(TIMEX
-14	2020	2020	NUM	NUM	_	13	nmod:tmod	_	Entity=TIMEX)
+14	2020	2020	NUM	NUM	_	13	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 15	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
 16-17	בביצוע	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	17	case	_	_
@@ -10459,26 +10459,26 @@
 36-37	בינואר	_	_	_	_	_	_	_	_
 36	ב	ב	ADP	ADP	_	37	case	_	_
 37	ינואר	ינואר	PROPN	PROPN	_	35	obl	_	_
-38	1836	1836	NUM	NUM	_	37	nmod:tmod	_	Entity=TIMEX)
-39	יוליאני	יוליאני	PROPN	PROPN	_	35	nmod:npmod	_	SpaceAfter=No
+38	1836	1836	NUM	NUM	_	37	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
+39	יוליאני	יוליאני	PROPN	PROPN	_	35	nmod:unmarked	_	SpaceAfter=No
 40	:	:	PUNCT	PUNCT	_	41	punct	_	_
 41	21	21	NUM	NUM	_	35	appos	_	Entity=(TIMEX
 42-43	בדצמבר	_	_	_	_	_	_	_	_
 42	ב	ב	ADP	ADP	_	43	case	_	_
 43	דצמבר	דצמבר	PROPN	PROPN	_	41	obl	_	_
-44	1835‏‏	1835‏‏	NUM	NUM	_	41	nmod:tmod	_	_
+44	1835‏‏	1835‏‏	NUM	NUM	_	41	nmod:unmarked	_	TemporalNPAdjunct=Yes
 45	–	–	SYM	SYM	_	46	case	_	_
 46	8	8	NUM	NUM	_	35	nmod	_	Entity=(TIMEX
 47-48	בדצמבר	_	_	_	_	_	_	_	_
 47	ב	ב	ADP	ADP	_	48	case	_	_
 48	דצמבר	דצמבר	NOUN	NOUN	Gender=Masc|Number=Sing	46	nmod	_	Entity=TIMEX)
-49	יוליאני	יוליאני	PROPN	PROPN	_	46	nmod:npmod	_	SpaceAfter=No
+49	יוליאני	יוליאני	PROPN	PROPN	_	46	nmod:unmarked	_	SpaceAfter=No
 50	:	:	PUNCT	PUNCT	_	51	punct	_	_
 51	25	25	NUM	NUM	_	46	appos	_	Entity=(TIMEX
 52-53	בנובמבר‏	_	_	_	_	_	_	_	_
 52	ב	ב	ADP	ADP	_	53	case	_	_
 53	נובמבר‏	נובמבר‏	PROPN	PROPN	_	51	nmod	_	_
-54	1917	1917	NUM	NUM	_	51	nmod:tmod	_	Entity=TIMEX)|SpaceAfter=No
+54	1917	1917	NUM	NUM	_	51	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 55	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
 56	,	,	PUNCT	PUNCT	_	1	punct	_	_
 57	היה	היה	AUX	AUX	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|VerbType=Cop	59	cop	_	_
@@ -11390,7 +11390,7 @@
 # text = כשנה לאחר מותו של מנדלי מוכר ספרים פרסמו חיים נחמן ביאליק, ויהושע חנא רבניצקי חוברת לזכרו, תחת הכותרת: "מנדלי מוכר ספרים (שלום בן משה חיים אברמוביץ): קובץ מאמרים על תולדותיו וערכו האישי והספרותי (בצירוף תמונותיו ועצם כתב ידו)".
 1-2	כשנה	_	_	_	_	_	_	_	_
 1	כ	כ	ADV	ADV	_	2	advmod	_	_
-2	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl:tmod	_	_
+2	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl:unmarked	_	TemporalNPAdjunct=Yes
 3	לאחר	לאחר	ADP	ADP	_	4	case	_	_
 4-5	מותו	_	_	_	_	_	_	_	_
 4	מות	מות	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_

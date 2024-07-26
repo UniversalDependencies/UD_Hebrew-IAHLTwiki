@@ -87,6 +87,7 @@ Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave 
 * 2024-11-15 v2.15
   * Added nested NER
   * FEATS consistency changes with other Hebrew treebanks
+  * Changed :tmod and :npmod subtypes to :unmarked with TemporalNPAdjunct=Yes in misc to preserve tmod info
 
 * 2022-05-15 v2.10
   * Initial release in Universal Dependencies.
