@@ -3438,7 +3438,7 @@
 24-25	באזורי	_	_	_	_	_	_	_	_
 24	ב	ב	ADP	ADP	_	25	case	_	_
 25	אזורי	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	conj	_	_
-26	יהודה	יהודה	PROPN	PROPN	_	25	compound	_	Entity=(LOC)(LOC
+26	יהודה	יהודה	PROPN	PROPN	_	25	compound	_	Entity=(LOC(LOC)
 27-28	ושומרון	_	_	_	_	_	_	_	_
 27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
 28	שומרון	שומרון	PROPN	PROPN	_	26	conj	_	Entity=(LOC)LOC)
@@ -3587,7 +3587,7 @@
 16	אחדים	אחד	NUM	NUM	Gender=Masc|Number=Plur	4	conj	_	_
 17-18	ביהודה	_	_	_	_	_	_	_	_
 17	ב	ב	ADP	ADP	_	18	case	_	_
-18	יהודה	יהודה	PROPN	PROPN	_	16	obl	_	Entity=(LOC)(LOC
+18	יהודה	יהודה	PROPN	PROPN	_	16	obl	_	Entity=(LOC(LOC)
 19-20	ושומרון	_	_	_	_	_	_	_	SpaceAfter=No
 19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
 20	שומרון	שומרון	PROPN	PROPN	_	18	conj	_	Entity=(LOC)LOC)
@@ -4447,7 +4447,7 @@
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	משפטי	משפטי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
 10	של	של	ADP	ADP	Case=Gen	11	case	_	_
-11	אונר"א	אונר"א	PROPN	PROPN	Abbr=Yes	7	nmod	_	Entity=TTL)(ORG)
+11	אונר"א	אונר"א	PROPN	PROPN	Abbr=Yes	7	nmod	_	Entity=(ORG)TTL)
 12	לשעבר	לשעבר	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	17	punct	_	_
 14-15	שהוא	_	_	_	_	_	_	_	_
@@ -5521,7 +5521,7 @@
 19	ירושלים	ירושלים	PROPN	PROPN	_	13	conj	_	Entity=(GPE)|SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	21	punct	_	_
 21	אזורי	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	conj	_	_
-22	יהודה	יהודה	PROPN	PROPN	_	21	compound	_	Entity=(LOC)(LOC
+22	יהודה	יהודה	PROPN	PROPN	_	21	compound	_	Entity=(LOC(LOC)
 23-24	ושומרון	_	_	_	_	_	_	_	_
 23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
 24	שומרון	שומרון	PROPN	PROPN	_	22	conj	_	Entity=(LOC)LOC)
@@ -7824,7 +7824,7 @@
 21	של	של	ADP	ADP	Case=Gen	22	case	_	_
 22	מחוז	מחוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod:poss	_	Entity=(ORG
 23	תל	תל	PROPN	PROPN	_	22	compound	_	Entity=(GPE
-24	אביב	אביב	PROPN	PROPN	_	23	compound	_	Entity=ORG)GPE)
+24	אביב	אביב	PROPN	PROPN	_	23	compound	_	Entity=GPE)ORG)
 25-26	והתוודתה	_	_	_	_	_	_	_	_
 25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
 26	התוודתה	התוודה	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
@@ -8314,7 +8314,7 @@
 34	סמים	סם	NOUN	NOUN	Gender=Masc|Number=Plur	33	compound	_	_
 35	של	של	ADP	ADP	Case=Gen	36	case	_	_
 36	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	nmod:poss	_	Entity=(ORG
-37	אברג'יל	אברג'יל	PROPN	PROPN	_	36	compound	_	Entity=ORG)(PER)|SpaceAfter=No
+37	אברג'יל	אברג'יל	PROPN	PROPN	_	36	compound	_	Entity=(PER)ORG)|SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = iahltwiki_hameila-babank-lemishar-32
@@ -11114,7 +11114,7 @@
 1	פרקליטות	פרקליטות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nsubj	_	Entity=(ORG
 2	מחוז	מחוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	_
 3	תל	תל	PROPN	PROPN	_	2	compound	_	Entity=(GPE
-4	אביב	אביב	PROPN	PROPN	_	3	compound	_	Entity=ORG)GPE)
+4	אביב	אביב	PROPN	PROPN	_	3	compound	_	Entity=GPE)ORG)
 5	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 6	אשר	אשר	SCONJ	SCONJ	_	7	mark	_	_
 7	הגישה	הגיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
