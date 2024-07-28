@@ -4998,7 +4998,7 @@
 20	מס	מס	PROPN	PROPN	_	19	compound	_	_
 21-22	ההכנסה	_	_	_	_	_	_	_	SpaceAfter=No
 21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
-22	הכנסה	הכנסה	PROPN	PROPN	_	20	compound	_	Entity=WOA)MISC)
+22	הכנסה	הכנסה	PROPN	PROPN	_	20	compound	_	Entity=MISC)WOA)
 23	:	:	PUNCT	PUNCT	_	22	punct	_	_
 
 # newpar
@@ -12621,7 +12621,7 @@
 9-10	במזרח	_	_	_	_	_	_	_	_
 9	ב	ב	ADP	ADP	_	10	case	_	_
 10	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	Entity=(LOC
-11	אירופה	אירופה	PROPN	PROPN	_	10	compound	_	Entity=LOC)(LOC)|SpaceAfter=No
+11	אירופה	אירופה	PROPN	PROPN	_	10	compound	_	Entity=(LOC)LOC)|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	על	על	ADP	ADP	_	14	case	_	_
 14	אורחות	אורח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	conj	_	_
