@@ -1398,11 +1398,11 @@
 
 # newpar
 # sent_id = iahltwiki_dialysis-49
-# text = דיאליזהבישראל
-1-3	דיאליזהבישראל	_	_	_	_	_	_	_	_
+# text = דיאליזה בישראל
 1	דיאליזה	דיאליזה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+2-3	בישראל	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
-3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE
+3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE)
 
 # newpar
 # sent_id = iahltwiki_dialysis-50

@@ -1190,7 +1190,7 @@
 1	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	בישראל	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
-3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE
+3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE)
 
 # newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-46
@@ -7026,7 +7026,7 @@
 26	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	Entity=MISC)
 27	סבר	סבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 28	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nsubj	_	Entity=(TTL
-29	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound	_	_
+29	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound	_	Entity=(ORG
 30-31	המשפט	_	_	_	_	_	_	_	_
 30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
 31	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound	_	_
