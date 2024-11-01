@@ -17,8 +17,8 @@
 8-9	בהם	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
-10	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	7	acl:relcl	_	_
-11	רמות	רמה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
+10	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	7	acl:relcl	_	Cxn=Existential-ExistPred-FullVerb
+11	רמות	רמה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	CxnElt=10:Existential-ExistPred-FullVerb.Pivot
 12	נמוכות	נמוך	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
 13-14	בדם	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	Definite=Def|PronType=Art	14	case	_	_
@@ -276,9 +276,9 @@
 
 # sent_id = iahltwiki_fresh-frozen-plasma-12
 # text = קיימת גם פלזמה מיובשת, שהיא פלזמה קפואה שיובשה.
-1	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+1	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
 2	גם	גם	ADV	ADV	_	1	advmod	_	_
-3	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	_
+3	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	CxnElt=1:Existential-ExistPred-FullVerb.Pivot
 4	מיובשת	מיובש	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_
 6-7	שהיא	_	_	_	_	_	_	_	_
@@ -585,10 +585,10 @@
 8	יחיד	יחיד	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	)	)	PUNCT	PUNCT	_	5	punct	_	_
 10	אמורה	אמור	AUX	AUX	Gender=Fem|Number=Sing	11	aux	_	_
-11	לשמש	שימש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+11	לשמש	שימש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=11:Conditional-NeutralEpistemic.Apodosis
 12	רק	רק	ADV	ADV	_	14	advmod	_	_
 13	אם	אם	SCONJ	SCONJ	_	14	mark	_	_
-14	יעיל	יעיל	ADJ	ADJ	Gender=Fem|Number=Sing	11	advcl	_	CorrectForm=יעילה
+14	יעיל	יעיל	ADJ	ADJ	Gender=Fem|Number=Sing	11	advcl	_	CorrectForm=יעילה|CxnElt=11:Conditional-NeutralEpistemic.Protasis
 15	יותר	יותר	ADV	ADV	_	14	advmod	_	_
 16-17	מטיפולים	_	_	_	_	_	_	_	_
 16	מ	מ	ADP	ADP	_	17	case	_	_
@@ -1483,13 +1483,13 @@
 # newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-54
 # text = טיפול אלטרנטיבי בטוח ויעיל קיים לעיתים קרובות, לכן פלזמה קפואה כבר אינה הטיפול הנבחר בתנאים רבים.
-1	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+1	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	CxnElt=6:Existential-ExistPred-FullVerb.Pivot
 2	אלטרנטיבי	אלטרנטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 3	בטוח	בטוח	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 4-5	ויעיל	_	_	_	_	_	_	_	_
 4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
 5	יעיל	יעיל	ADJ	ADJ	Gender=Masc|Number=Sing	3	conj	_	_
-6	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+6	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
 7-8	לעיתים	_	_	_	_	_	_	_	_
 7	ל	ל	ADP	ADP	_	8	case	_	_
 8	עיתים	עת	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	_
@@ -5007,8 +5007,8 @@
 1	לפי	לפי	ADP	ADP	_	2	case	_	_
 2	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
-4	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
-5	הקלה	הקלה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
+5	הקלה	הקלה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	CxnElt=4:Existential-ExistPred-FullVerb.Pivot
 6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
 7-8	במיסוי	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
@@ -5093,9 +5093,9 @@
 1-2	בישראל	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
 2	ישראל	ישראל	PROPN	PROPN	_	3	obl	_	Entity=(GPE)
-3	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+3	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	Cxn=Existential-ExistPred-FullVerb
 4	שתי	שתיים	NUM	NUM	Gender=Fem|NumType=Card	5	nummod	_	_
-5	שיטות	שיטה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	שיטות	שיטה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	CxnElt=3:Existential-ExistPred-FullVerb.Pivot
 6-7	לחישוב	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	חישוב	חישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -5325,9 +5325,9 @@
 4	של	של	ADP	ADP	Case=Gen	5	case	_	_
 5	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod:poss	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	3	punct	_	_
-7	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+7	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	Cxn=Existential-ExistPred-FullVerb
 8	גם	גם	ADV	ADV	_	7	advmod	_	_
-9	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	CxnElt=7:Existential-ExistPred-FullVerb.Pivot
 10	דיבידנדים	דיבידנדי	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound	_	_
 11	אשר	אשר	SCONJ	SCONJ	_	12	mark	_	_
 12	נגבה	נגבה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	acl:relcl	_	_
@@ -5598,7 +5598,7 @@
 37	כלומר	כלומר	ADV	ADV	_	53	advmod	_	SpaceAfter=No
 38	,	,	PUNCT	PUNCT	_	37	punct	_	_
 39	אם	אם	SCONJ	SCONJ	_	40	mark	_	_
-40	ירוויח	הרוויח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	53	advcl	_	_
+40	ירוויח	הרוויח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	53	advcl	_	CxnElt=53:Conditional-NeutralEpistemic.Protasis
 41	רווחי	רווח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	40	obj	_	_
 42	הון	הון	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound	_	SpaceAfter=No
 43	,	,	PUNCT	PUNCT	_	47	punct	_	_
@@ -5613,7 +5613,7 @@
 50	הפסדי	הפסד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	47	nsubj	_	_
 51	הון	הון	NOUN	NOUN	Gender=Masc|Number=Sing	50	compound	_	SpaceAfter=No
 52	,	,	PUNCT	PUNCT	_	40	punct	_	_
-53	יוחזר	הוחזר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	5	conj	_	_
+53	יוחזר	הוחזר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	5	conj	_	Cxn=Conditional-NeutralEpistemic|CxnElt=53:Conditional-NeutralEpistemic.Apodosis
 54-55	לו	_	_	_	_	_	_	_	_
 54	ל	ל	ADP	ADP	_	55	case	_	_
 55	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	53	obl	_	_
@@ -6468,13 +6468,13 @@
 40-41	הדבר	_	_	_	_	_	_	_	_
 40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
 41	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	42	nsubj:pass	_	_
-42	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	47	advcl	_	_
+42	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	47	advcl	_	CxnElt=47:Conditional-NeutralEpistemic.Protasis
 43-44	ברוב	_	_	_	_	_	_	_	_
 43	ב	ב	ADP	ADP	_	44	case	_	_
 44	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	42	obl	_	_
 45	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	44	amod	_	SpaceAfter=No
 46	,	,	PUNCT	PUNCT	_	42	punct	_	_
-47	ירוקן	רוקן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	conj	_	_
+47	ירוקן	רוקן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	conj	_	Cxn=Conditional-NeutralEpistemic|CxnElt=47:Conditional-NeutralEpistemic.Apodosis
 48-49	מתוכן	_	_	_	_	_	_	_	_
 48	מ	מ	ADP	ADP	_	49	case	_	_
 49	תוכן	תוכן	NOUN	NOUN	Gender=Masc|Number=Sing	47	obl	_	_
@@ -6997,9 +6997,9 @@
 2	ל	ל	ADP	ADP	Definite=Def|PronType=Art	1	fixed	_	_
 3	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
 4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
-5	פסקת	פסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	Entity=(MISC
+5	פסקת	פסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	CxnElt=7:Existential-ExistPred-FullVerb.Pivot|Entity=(MISC
 6	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	Entity=MISC)
-7	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	3	acl	_	_
+7	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	3	acl	_	Cxn=Existential-ExistPred-FullVerb
 8-9	בחוק	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	Entity=(MISC
@@ -7060,9 +7060,9 @@
 
 # sent_id = iahltwiki_piskat-hitgabrut-18
 # text = אין כל צידוק ענייני להבחין בין הזכויות השונות מנקודת מבט זו.
-1	אין	אין	VERB	VERB	Polarity=Neg	0	root	_	_
+1	אין	אין	VERB	VERB	Polarity=Neg	0	root	_	Cxn=Existential-NotExistPred-VblPart
 2	כל	כול	DET	DET	Definite=Cons|PronType=Tot	3	det	_	_
-3	צידוק	צידוק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	צידוק	צידוק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	CxnElt=1:Existential-NotExistPred-VblPart.Pivot
 4	ענייני	ענייני	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
 5	להבחין	הבחין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	acl	_	_
 6	בין	בין	ADP	ADP	_	8	case	_	_
@@ -8065,8 +8065,8 @@
 1	או	או	CCONJ	CCONJ	_	3	cc	_	_
 2-3	שיש	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
-3	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	_
-4	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	Cxn=Existential-ExistPred-VblPart
+4	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	CxnElt=3:Existential-ExistPred-VblPart.Pivot
 5-6	ברוב	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -8939,7 +8939,7 @@
 3	לעומת	לעומת	ADP	ADP	_	4	case	_	_
 4	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	obl	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
-6	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	21	advcl	_	_
+6	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	21	advcl	_	CxnElt=21:Conditional-NeutralEpistemic.Protasis
 7-8	המחוקק	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
 8	מחוקק	מחוקק	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -8958,7 +8958,7 @@
 18	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound	_	_
 19	,	,	PUNCT	PUNCT	_	6	punct	_	_
 20	יוכל	יכל	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Tense=Fut	21	aux	_	_
-21	לשוב	שב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+21	לשוב	שב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=21:Conditional-NeutralEpistemic.Apodosis
 22-23	ולחוקק	_	_	_	_	_	_	_	_
 22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
 23	לחוקק	חוקק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	conj	_	_
@@ -9320,8 +9320,8 @@
 24	כך	כך	ADV	ADV	_	26	mark	_	_
 25-26	שאין	_	_	_	_	_	_	_	_
 25	ש	ש	SCONJ	SCONJ	_	24	fixed	_	_
-26	אין	אין	VERB	VERB	Polarity=Neg	13	advcl	_	_
-27	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	_
+26	אין	אין	VERB	VERB	Polarity=Neg	13	advcl	_	Cxn=Existential-NotExistPred-VblPart
+27	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	CxnElt=26:Existential-NotExistPred-VblPart.Pivot
 28	לאזן	איזן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	27	acl	_	_
 29	את	את	ADP	ADP	_	30	case	_	_
 30-31	סמכויותיו	_	_	_	_	_	_	_	SpaceAfter=No
@@ -10249,7 +10249,7 @@
 # text = זו תהיה טרגדיה נוראית אם העצמאות של ביהמ"ש העליון תפחת במידה כלשהי על ידי פעולות של הכנסת".
 1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	תהיה	היה	AUX	AUX	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	3	cop	_	_
-3	טרגדיה	טרגדיה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+3	טרגדיה	טרגדיה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=3:Conditional-NeutralEpistemic.Apodosis
 4	נוראית	נוראי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 5	אם	אם	SCONJ	SCONJ	_	12	mark	_	_
 6-7	העצמאות	_	_	_	_	_	_	_	_
@@ -10260,7 +10260,7 @@
 10-11	העליון	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
 11	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	Entity=ORG)
-12	תפחת	פחת	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	3	advcl	_	_
+12	תפחת	פחת	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	3	advcl	_	CxnElt=3:Conditional-NeutralEpistemic.Protasis
 13-14	במידה	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	_	14	case	_	_
 14	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
@@ -10631,8 +10631,8 @@
 13-14	לו	_	_	_	_	_	_	_	_
 13	ל	ל	ADP	ADP	_	14	case	_	_
 14	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
-15	כיצד	כיצד	ADV	ADV	PronType=Int	16	advmod	_	_
-16	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	ccomp	_	_
+15	כיצד	כיצד	ADV	ADV	PronType=Int	16	advmod	_	CxnElt=16:Interrogative-WHInfo-Indirect.WHWord
+16	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=16:Interrogative-WHInfo-Indirect.Clause
 17-18	הכינוי	_	_	_	_	_	_	_	_
 17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
 18	כינוי	כינוי	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
