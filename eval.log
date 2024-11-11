@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Hebrew-IAHLTwiki:
-commit 3f8499df36792e1f2ac63b1efb6c66b12c4a81a1
-Merge: 8c0a4a3 be02443
+commit 5571539352d50e906c4f3eeb57fbcbd5e7b1c8b5
+Merge: 039f799 fac3aa9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 140950 of 140950 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.89681043512024.
+Size: counted 140961 of 140961 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.89696651274766.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 82720 out of 140950 total words have one or more features.
+Features: 83414 out of 140961 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       9700
-Udapi: found 9700 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 140950 words.
+               TOTAL       9342
+Udapi: found 9342 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 140961 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-dev.conllu
 *** PASSED ***
@@ -36,11 +36,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.716355026735874) = 0.183680776086121
+(weight=0.256410256410256) * (score{size}=0.716366324011263) = 0.183683672823401
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.311812699538844) = 0.095942369088875
+(weight=0.307692307692308) * (score{udapi}=0.337263498414455) = 0.103773384127525
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.617516423068274) * (availability=1) * (validity=1) = 0.617516423068274
+(TOTAL score=0.625350334844203) * (availability=1) * (validity=1) = 0.625350334844203
 STARS = 3
-UD_Hebrew-IAHLTwiki	0.617516423068274	3
+UD_Hebrew-IAHLTwiki	0.625350334844203	3
