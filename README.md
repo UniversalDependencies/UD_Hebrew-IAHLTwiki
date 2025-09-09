@@ -103,6 +103,7 @@ Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave 
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: wiki
 Lemmas: manual native
 UPOS: manual native
