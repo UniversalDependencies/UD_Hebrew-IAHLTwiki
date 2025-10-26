@@ -1,9 +1,9 @@
-# newpar
 # newdoc id = iahltwiki_fresh-frozen-plasma
 # meta::domain = health
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A8%D7%95%D7%99_%D7%A4%D7%9C%D7%96%D7%9E%D7%94
 # meta::title = עירוי פלזמה
 # sent_id = iahltwiki_fresh-frozen-plasma-1
+# newpar
 # text = עירוי פלזמה משמש לטיפול במצבים בהם קיימות רמות נמוכות בדם של גורמי קרישה (INR>1.5) או רמות נמוכות של חלבוני דם אחרים, ומשמש גם כחלק מחילוף פלזמה.
 1	עירוי	עירוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	_
@@ -66,7 +66,7 @@
 
 # sent_id = iahltwiki_fresh-frozen-plasma-3
 # text = לפני שניתנת מנת פלזמה יש לבדוק תאימות של נוגדנים אצל הנתרם.
-1	לפני	לפני	ADP	ADP	_	3	mark	_	_
+1	לפני	לפני	ADP	ADP	ExtPos=SCONJ	3	mark	_	_
 2-3	שניתנת	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
 3	ניתנת	ניתן	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	_
@@ -92,7 +92,7 @@
 4-5	לרוב	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	Definite=Def|PronType=Art	5	case	_	_
 5	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
-6	על	על	ADP	ADP	_	8	case	_	_
+6	על	על	ADP	ADP	ExtPos=ADP	8	case	_	_
 7	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	fixed	_	_
 8	הזרקה	הזרקה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
 9	תוך	תוך	ADV	ADV	_	10	compound:affix	_	_
@@ -101,8 +101,8 @@
 12	עירוי	עירוי	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-5
+# newpar
 # text = תופעות הלוואי עלולות להיות בחילות ותחושת גירוד.
 1	תופעות	תופעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	nsubj	_	_
 2-3	הלוואי	_	_	_	_	_	_	_	_
@@ -182,8 +182,8 @@
 21	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-9
+# newpar
 # text = עירוי פלזמהנכנס לשימוש רפואי לראשונה במהלך מלחמת העולם השנייה.
 1	עירוי	עירוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
 2-3	פלזמהנכנס	_	_	_	_	_	_	_	_
@@ -195,7 +195,7 @@
 6	רפואי	רפואי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
 7	לראשונה	לראשונה	ADV	ADV	_	3	advmod	_	_
 8-9	במהלך	_	_	_	_	_	_	_	_
-8	ב	ב	ADP	ADP	_	10	case	_	_
+8	ב	ב	ADP	ADP	ExtPos=ADP	10	case	_	_
 9	מהלך	מהלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	fixed	_	_
 10	מלחמת	מלחמה	PROPN	PROPN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	Entity=(EVE
 11-12	העולם	_	_	_	_	_	_	_	_
@@ -206,8 +206,8 @@
 14	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	Entity=EVE)
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-10
+# newpar
 # text = העירוי עשוי פעמים רבות מפלזמה קפואה (FFP), שהיא מוצר דם העשוי מהחלק הנוזלי של הדם.
 1-2	העירוי	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -343,13 +343,13 @@
 18	מומסים	מומס	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-15
+# newpar
 # text = הגדרה
 1	הגדרה	הגדרה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-16
+# newpar
 # text = בארצות הברית ההגדרה מתייחסת לחלק הנוזלי של יחידה אחת של דם אנושי שתוייג, הופרד, והוקפא ב מינוס 18 מעלות צלזיוס או קר יותר במהלך שמונה שעות מהאיסוף.
 1-2	בארצות	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -391,7 +391,7 @@
 31	קר	קר	ADJ	ADJ	Gender=Masc|Number=Sing	28	conj	_	_
 32	יותר	יותר	ADV	ADV	_	31	advmod	_	_
 33-34	במהלך	_	_	_	_	_	_	_	_
-33	ב	ב	ADP	ADP	_	36	case	_	_
+33	ב	ב	ADP	ADP	ExtPos=ADP	36	case	_	_
 34	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	33	fixed	_	_
 35	שמונה	שמונה	NUM	NUM	Gender=Fem|NumType=Card	36	nummod	_	_
 36	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	24	obl	_	_
@@ -437,7 +437,7 @@
 8-9	לאבקה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	Definite=Def|PronType=Art	9	case	_	_
 9	אבקה	אבקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
-10	על	על	ADP	ADP	_	12	mark	_	_
+10	על	על	ADP	ADP	ExtPos=SCONJ	12	mark	_	_
 11	מנת	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	fixed	_	_
 12	להאריך	האריך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	advcl	_	_
 13	את	את	ADP	ADP	_	14	case	_	_
@@ -461,8 +461,8 @@
 26	הקפאה	הקפאה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-19
+# newpar
 # text = ישנם מעט אינדיקציות ספציפיות לשימוש בפלזמה קפואה.
 1	ישנם	יש	VERB	VERB	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	0	root	_	CorrectForm=ישנן
 2	מעט	מעט	DET	DET	_	3	det	_	_
@@ -512,7 +512,7 @@
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	נפוץ	נפוץ	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
 7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|PronType=Prs	10	cop	_	_
-8	על	על	ADP	ADP	_	10	mark	_	_
+8	על	על	ADP	ADP	ExtPos=SCONJ	10	mark	_	_
 9	מנת	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	fixed	_	_
 10	לעצור	עצר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
 11	דימום	דימום	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
@@ -530,8 +530,8 @@
 20	טראומה	טראומה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
 21	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-22
+# newpar
 # text = אינדיקציות לשימוש של פלזמה קפואה כוללות את האינדיקציות הבאות:
 1	אינדיקציות	אינדיקציה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
 2-3	לשימוש	_	_	_	_	_	_	_	_
@@ -656,13 +656,13 @@
 23	קפואה	קפוא	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	14	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-27
+# newpar
 # text = סיכונים
 1	סיכונים	סיכון	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-28
+# newpar
 # text = הסיכונים של פלזמה קפואה כוללים העברת מחלות, תגובה אלרגית, ויתר נפח הדם, כמו גם פציעה ריאתית חמורה הקשורה בעירוי (TRALI) והופעה של זיהומים (כולל זיהומים של פצע ניתוחי).
 1-2	הסיכונים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -786,7 +786,7 @@
 15	HIV	HIV	PROPN	PROPN	_	5	appos	_	SpaceAfter=No
 16	)	)	PUNCT	PUNCT	_	15	punct	_	_
 17	מועבר	הועבר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
-18	על	על	ADP	ADP	_	20	case	_	_
+18	על	על	ADP	ADP	ExtPos=ADP	20	case	_	_
 19	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	fixed	_	_
 20	עירויי	עירוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
 21	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound	_	_
@@ -795,7 +795,7 @@
 23	עלול	עלול	AUX	AUX	Gender=Masc|Number=Sing|Person=3	24	aux	_	_
 24	להיעבר	נעבר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Pass	17	conj	_	_
 25	גם	גם	ADV	ADV	_	28	advmod	_	_
-26	על	על	ADP	ADP	_	28	case	_	_
+26	על	על	ADP	ADP	ExtPos=ADP	28	case	_	_
 27	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	fixed	_	_
 28	פלסמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
 29	קפואה	קפוא	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
@@ -840,8 +840,8 @@
 29	לבבי	לבבי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-33
+# newpar
 # text = פלזמהקפואה צריכה להינתן לאחר בדיקת סוג דם מתאים, כדי להבטיח תאימות, הופעת תגובת היפרקואגולציה (קרישיות יתר) אפשרית, אם כי נדירה.
 1-2	פלזמהקפואה	_	_	_	_	_	_	_	_
 1	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -869,7 +869,7 @@
 22	)	)	PUNCT	PUNCT	_	20	punct	_	_
 23	אפשרית	אפשרי	ADJ	ADJ	Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	27	punct	_	_
-25	אם	אם	SCONJ	SCONJ	_	27	mark	_	_
+25	אם	אם	SCONJ	SCONJ	ExtPos=SCONJ	27	mark	_	_
 26	כי	כי	SCONJ	SCONJ	_	25	fixed	_	_
 27	נדירה	נדיר	ADJ	ADJ	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -910,8 +910,8 @@
 28	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-35
+# newpar
 # text = בשל סיכונים אלו, ובמיוחד הסיכון לזיהום, לאחר שנעשה שימוש במתן פלזמה כבר במלחמת העולם הראשונה, מתודה זאת נזנחה, עד להחזרת צה"ל את הפלזמה לשימוש צבאי מבצעי.
 1	בשל	בשל	ADP	ADP	_	2	case	_	_
 2	סיכונים	סיכון	NOUN	NOUN	Gender=Masc|Number=Plur	29	obl	_	_
@@ -927,7 +927,7 @@
 9	ל	ל	ADP	ADP	_	10	case	_	_
 10	זיהום	זיהום	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	,	PUNCT	PUNCT	_	2	punct	_	_
-12	לאחר	לאחר	ADP	ADP	_	14	mark	_	_
+12	לאחר	לאחר	ADP	ADP	ExtPos=SCONJ	14	mark	_	_
 13-14	שנעשה	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	12	fixed	_	_
 14	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	29	advcl	_	_
@@ -951,7 +951,7 @@
 28	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	27	det	_	_
 29	נזנחה	נזנח	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	SpaceAfter=No
 30	,	,	PUNCT	PUNCT	_	33	punct	_	_
-31	עד	עד	ADP	ADP	_	33	case	_	_
+31	עד	עד	ADP	ADP	ExtPos=ADP	33	case	_	_
 32-33	להחזרת	_	_	_	_	_	_	_	_
 32	ל	ל	ADP	ADP	_	31	fixed	_	_
 33	החזרת	החזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	obl	_	_
@@ -967,19 +967,19 @@
 41	מבצעי	מבצעי	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	_	29	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-36
+# newpar
 # text = ייצור
 1	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-37
+# newpar
 # text = פלזמהקפואה מיוצרת על ידי תהליך בצנטרפוגה ואחריו הקפאה ושימור.
 1-2	פלזמהקפואה	_	_	_	_	_	_	_	_
 1	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 2	קפואה	קפוא	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
 3	מיוצרת	יוצר	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
-4	על	על	ADP	ADP	_	6	case	_	_
+4	על	על	ADP	ADP	ExtPos=ADP	6	case	_	_
 5	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	fixed	_	_
 6	תהליך	תהליך	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
 7-8	בצנטרפוגה	_	_	_	_	_	_	_	_
@@ -995,8 +995,8 @@
 14	שימור	שימור	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-38
+# newpar
 # text = פלזמהמיובשת, מיובשת לאחר ההקפאה עד שמגיעה למצב אבקתי.
 1-2	פלזמהמיובשת	_	_	_	_	_	_	_	SpaceAfter=No
 1	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -1007,7 +1007,7 @@
 6-7	ההקפאה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	הקפאה	הקפאה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-8	עד	עד	ADP	ADP	_	10	mark	_	_
+8	עד	עד	ADP	ADP	ExtPos=SCONJ	10	mark	_	_
 9-10	שמגיעה	_	_	_	_	_	_	_	_
 9	ש	ש	SCONJ	SCONJ	_	8	fixed	_	_
 10	מגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
@@ -1036,14 +1036,14 @@
 12	ורידי	ורידי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-40
+# newpar
 # text = שימוש כללי
 1	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-41
+# newpar
 # text = השימוש בפלזמה ומוצריה התפתח במשך תקופה של ארבעה עשורים.
 1-2	השימוש	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -1184,16 +1184,16 @@
 31	צה"ל	צה"ל	PROPN	PROPN	_	28	nmod	_	Entity=(ORG)
 32	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-45
+# newpar
 # text = שימוש בישראל
 1	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	בישראל	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	_	3	case	_	_
 3	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE)
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-46
+# newpar
 # text = בישראלפלזמהמיובשת (פלזמה קפואה שעברה תהליך ייבוש) נכנסה לשימוש מבצעי בצה"ל בעשור האחרון והפכה את צה"ל לצבא הראשון בעולם שהכניס אותה לשימוש מבצעי.
 1-4	בישראלפלזמהמיובשת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -1366,8 +1366,8 @@
 41	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
 42	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-50
+# newpar
 # text = יתרונות הפלזמה על מנת הרטמן רגילה הן שפלזמה מכילה גורמי קרישה לכן עוזרת בעצירת הדימום בפצוע, וכן רמת החומציות שלה קרובה יותר לזאת של הדם.
 1	יתרונות	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nsubj:outer	_	_
 2-3	הפלזמה	_	_	_	_	_	_	_	_
@@ -1417,13 +1417,13 @@
 36	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	33	nmod:poss	_	_
 37	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-51
+# newpar
 # text = חלופות
 1	חלופות	חלופה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-52
+# newpar
 # text = פלזמה מתורם יחיד יעילה בטיפול בליקויים קלים של גורמי קרישה.
 1	פלזמה	פלזמה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 2-3	מתורם	_	_	_	_	_	_	_	_
@@ -1480,8 +1480,8 @@
 28	כבד	כבד	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-54
+# newpar
 # text = טיפול אלטרנטיבי בטוח ויעיל קיים לעיתים קרובות, לכן פלזמה קפואה כבר אינה הטיפול הנבחר בתנאים רבים.
 1	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	CxnElt=6:Existential-ExistPred-FullVerb.Pivot
 2	אלטרנטיבי	אלטרנטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
@@ -1600,14 +1600,14 @@
 21	כ	כ	ADP	ADP	Definite=Def|PronType=Art	22	case	_	_
 22	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nmod	_	_
 23-24	מאז	_	_	_	_	_	_	_	_
-23	מ	מ	ADP	ADP	_	25	case	_	_
+23	מ	מ	ADP	ADP	ExtPos=ADP	25	case	_	_
 24	אז	אז	ADV	ADV	_	23	fixed	_	_
 25	1985	1985	NUM	NUM	_	19	obl	_	Entity=(TIMEX)|SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	28	punct	_	_
 27	כאשר	כאשר	SCONJ	SCONJ	_	28	mark	_	_
 28	פותחו	פותח	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	advcl	_	_
 29	טכניקות	טכניקה	NOUN	NOUN	Gender=Fem|Number=Plur	28	nsubj:pass	_	_
-30	על	על	ADP	ADP	_	32	mark	_	_
+30	על	על	ADP	ADP	ExtPos=SCONJ	32	mark	_	_
 31	מנת	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	fixed	_	_
 32	להרוג	הרג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	28	advcl	_	_
 33	וירוסים	וירוס	NOUN	NOUN	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
@@ -1635,8 +1635,8 @@
 14	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-60
+# newpar
 # text = הפרקטיקה של מתן שתי מנות כדוריות דם אדומות ופלסמה קפואה לאותו המטופל צריכה להיות מופחתת, כיוון שפרקטיקה זאת מוסיפה עלות ומכפילה את שיעור ההידבקות.
 1-2	הפרקטיקה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -1662,7 +1662,7 @@
 18	להיות	היה	AUX	AUX	HebBinyan=PAAL|Polarity=Pos|VerbForm=Inf	19	cop	_	_
 19	מופחתת	מופחת	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	25	punct	_	_
-21	כיוון	כיוון	SCONJ	SCONJ	_	25	mark	_	_
+21	כיוון	כיוון	SCONJ	SCONJ	ExtPos=SCONJ	25	mark	_	_
 22-23	שפרקטיקה	_	_	_	_	_	_	_	_
 22	ש	ש	SCONJ	SCONJ	_	21	fixed	_	_
 23	פרקטיקה	פרקטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -1697,8 +1697,8 @@
 12	מועדף	מועדף	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_fresh-frozen-plasma-62
+# newpar
 # text = על תמיכה תזונתית, פתרונות המכלים חומצות אמינו ודקסטרוז צריכים להילקח בחשבון.
 1	על	על	ADP	ADP	_	2	case	_	_
 2	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
@@ -1743,12 +1743,12 @@
 15	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_bird-mosaic
 # meta::domain = place
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%A1%D7%99%D7%A4%D7%A1_%D7%94%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D_(%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D)
 # meta::title = פסיפס הציפורים (ירושלים)
 # sent_id = iahltwiki_bird-mosaic-1
+# newpar
 # text = פסיפס הציפורים הוא פסיפס ייחודי המעטר רצפת חדר בכנסייה ארמנית המתוארכת למאה הששית, וממוקמת כ-350 מטרים צפונית לשער שכם בירושלים.
 1	פסיפס	פסיפס	PROPN	PROPN	Definite=Cons	5	nsubj	_	Entity=(WOA
 2-3	הציפורים	_	_	_	_	_	_	_	_
@@ -1772,9 +1772,9 @@
 16-17	למאה	_	_	_	_	_	_	_	_
 16	ל	ל	ADP	ADP	Definite=Def|PronType=Art	17	case	_	_
 17	מאה	מאה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	Entity=(TIMEX
-18-19	הששית	_	_	_	_	_	_	_	SpaceAfter=No
+18-19	הששית	_	_	_	Typo=Yes	_	_	_	SpaceAfter=No
 18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
-19	ששית	שישי	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord|Typo=Yes	17	amod	_	CorrectForm=שישית|Entity=TIMEX)
+19	ששית	שישי	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	CorrectForm=שישית|Entity=TIMEX)
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
 21-22	וממוקמת	_	_	_	_	_	_	_	_
 21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
@@ -1842,16 +1842,16 @@
 34	ארמנים	ארמן	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	PUNCT	_	29	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-3
+# newpar
 # text = מיקום וגילוי
 1	מיקום	מיקום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	וגילוי	_	_	_	_	_	_	_	_
 2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
 3	גילוי	גילוי	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-4
+# newpar
 # text = פסיפס הציפורים שוכן בתוך מבנה ישן, מחוץ לשער שכם, בתחילתו של רחוב הנביאים.
 1	פסיפס	פסיפס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(WOA
 2-3	הציפורים	_	_	_	_	_	_	_	_
@@ -1863,7 +1863,7 @@
 7	ישן	ישן	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	12	punct	_	_
 9-10	מחוץ	_	_	_	_	_	_	_	_
-9	מ	מ	ADP	ADP	_	12	case	_	_
+9	מ	מ	ADP	ADP	ExtPos=ADP	12	case	_	_
 10	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	fixed	_	_
 11-12	לשער	_	_	_	_	_	_	_	_
 11	ל	ל	ADP	ADP	_	9	fixed	_	_
@@ -1907,7 +1907,7 @@
 18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
 19	חרבה	חרב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
 20-21	במהלך	_	_	_	_	_	_	_	_
-20	ב	ב	ADP	ADP	_	22	case	_	_
+20	ב	ב	ADP	ADP	ExtPos=ADP	22	case	_	_
 21	מהלך	מהלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	fixed	_	_
 22	מלחמת	מלחמה	PROPN	PROPN	Definite=Cons	19	obl	_	Entity=(EVE
 23-24	העצמאות	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1986,8 +1986,8 @@
 44	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-7
+# newpar
 # text = הפסיפס התגלה בשנת 1894, במהלך הנחת יסודות לבית.
 1-2	הפסיפס	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -1999,7 +1999,7 @@
 6	1894	1894	NUM	NUM	_	5	compound	_	Entity=TIMEX)|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_
 8-9	במהלך	_	_	_	_	_	_	_	_
-8	ב	ב	ADP	ADP	_	10	case	_	_
+8	ב	ב	ADP	ADP	ExtPos=ADP	10	case	_	_
 9	מהלך	מהלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	fixed	_	_
 10	הנחת	הנחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
 11	יסודות	יסוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound	_	_
@@ -2065,9 +2065,9 @@
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
 10	פסיפס	פסיפס	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
 11	,	,	PUNCT	PUNCT	_	17	punct	_	_
-12-13	ומיד	_	_	_	_	_	_	_	_
+12-13	ומיד	_	_	_	Typo=Yes	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
-13	מיד	מייד	ADV	ADV	Typo=Yes	15	advmod	_	CorrectForm=מייד
+13	מיד	מייד	ADV	ADV	_	15	advmod	_	CorrectForm=מייד
 14	עם	עם	ADP	ADP	_	15	case	_	_
 15-16	גילויו	_	_	_	_	_	_	_	_
 15	גילוי	גילוי	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
@@ -2235,7 +2235,7 @@
 
 # sent_id = iahltwiki_bird-mosaic-13
 # text = נכון ליוני 2009, הכניסה אליו אפשרית רק בתיאום עם הפטריארכיה.
-1	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	3	case	_	_
+1	נכון	נכון	ADJ	ADJ	ExtPos=ADP|Gender=Masc|Number=Sing	3	case	_	_
 2-3	ליוני	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	_	1	fixed	_	_
 3	יוני	יוני	PROPN	PROPN	_	10	obl	_	Entity=(TIMEX
@@ -2258,16 +2258,16 @@
 16	פטריארכיה	פטריארכיה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
 17	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-14
+# newpar
 # text = תארוך וזיהוי
 1	תארוך	תארוך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	וזיהוי	_	_	_	_	_	_	_	_
 2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
 3	זיהוי	זיהוי	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-15
+# newpar
 # text = כאלף רצפות פסיפס נתגלו בארץ ישראל, ותוארכו ברובן לתקופה הביזנטית, בין השנים 450 ועד שנת 640, שאז נכבשה ארץ ישראל בידי המוסלמים, ואמנות הכנסיות שקעה.
 1-2	כאלף	_	_	_	_	_	_	_	_
 1	כ	כ	ADV	ADV	_	2	advmod	_	_
@@ -2339,15 +2339,15 @@
 9	ארמניות	ארמני	ADJ	ADJ	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-17
+# newpar
 # text = פסיפס הציפורים משתרע על פני חדר ששטחו הוא כ-7 על 4 מטרים, והוא השתמר כמעט במלואו, כולל כתובת שלמה בארמנית האומרת: "לזכרם ולגאולתם של כל הארמנים, אשר שמותיהם ידועים לאל בלבד".
 1	פסיפס	פסיפס	PROPN	PROPN	Definite=Cons	4	nsubj	_	Entity=(WOA
 2-3	הציפורים	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	ציפורים	ציפור	PROPN	PROPN	_	1	compound	_	Entity=WOA)
 4	משתרע	השתרע	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
-5	על	על	ADP	ADP	_	7	case	_	_
+5	על	על	ADP	ADP	ExtPos=ADP	7	case	_	_
 6	פני	פנים	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	fixed	_	_
 7	חדר	חדר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 8-10	ששטחו	_	_	_	_	_	_	_	_
@@ -2456,7 +2456,7 @@
 5-6	שנתגלתה	_	_	_	_	_	_	_	_
 5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
 6	נתגלתה	התגלה	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	acl:relcl	_	_
-7	מתחת	מתחת	ADP	ADP	_	9	case	_	_
+7	מתחת	מתחת	ADP	ADP	ExtPos=ADP	9	case	_	_
 8-9	לפסיפס	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	Definite=Def|PronType=Art	7	fixed	_	_
 9	פסיפס	פסיפס	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
@@ -2496,7 +2496,7 @@
 
 # sent_id = iahltwiki_bird-mosaic-20
 # text = על פי הכתובת וסגנון הפסיפס, הוא תוארך לסביבות שנת 550, שכן מתקופה זו ואילך ישנן עדויות לנוכחות ארמנית בירושלים.
-1	על	על	ADP	ADP	_	4	case	_	_
+1	על	על	ADP	ADP	ExtPos=ADP	4	case	_	_
 2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	הכתובת	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -2550,7 +2550,7 @@
 8	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	Entity=(TIMEX
 9	404	404	NUM	NUM	_	8	compound	_	Entity=TIMEX)|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	14	punct	_	_
-11	כך	כך	ADV	ADV	_	14	mark	_	_
+11	כך	כך	ADV	ADV	ExtPos=SCONJ	14	mark	_	_
 12-13	שלא	_	_	_	_	_	_	_	_
 12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
 13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
@@ -2573,16 +2573,16 @@
 26	חמישית	חמישי	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	Entity=TIMEX)
 27	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-22
+# newpar
 # text = תיאור וניתוח
 1	תיאור	תיאור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	וניתוח	_	_	_	_	_	_	_	_
 2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
 3	ניתוח	ניתוח	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-23
+# newpar
 # text = פסיפס הציפורים, כמשתמע משמו, עשיר בדמויות ציפורים, הנתונות בתוך 39 מדליונים עגולים עשויים שריגי גפן.
 1	פסיפס	פסיפס	PROPN	PROPN	Definite=Cons	11	nsubj	_	Entity=(WOA
 2-3	הציפורים	_	_	_	_	_	_	_	SpaceAfter=No
@@ -2659,7 +2659,7 @@
 19	מ	מ	ADP	ADP	_	20	case	_	_
 20	שמאל	שמאל	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
 21	,	,	PUNCT	PUNCT	_	27	punct	_	_
-22	כך	כך	ADV	ADV	_	27	mark	_	_
+22	כך	כך	ADV	ADV	ExtPos=SCONJ	27	mark	_	_
 23-25	שלכל	_	_	_	_	_	_	_	_
 23	ש	ש	SCONJ	SCONJ	_	22	fixed	_	_
 24	ל	ל	ADP	ADP	_	26	case	_	_
@@ -2703,8 +2703,8 @@
 13	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
 14	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-27
+# newpar
 # text = ראשיתו של הפסיפס בכניסה לחדר, שם מוצגת אמפורה מסוגננת, ומצדיה זוג טווסים.
 1-2	ראשיתו	_	_	_	_	_	_	_	_
 1	ראשית	ראשית	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -2911,15 +2911,15 @@
 16	רומית	רומי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
 17	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-33
+# newpar
 # text = סוגי הציפורים זוהו על ידי החוקרים כעופות ארץ ישראל, ובהם יונים, אווזים, חסידות, סנוניות, קוראים, פסיונים ועוד.
 1	סוגי	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
 2-3	הציפורים	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	ציפורים	ציפור	NOUN	NOUN	Gender=Fem|Number=Plur	1	compound	_	_
 4	זוהו	זהה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
-5	על	על	ADP	ADP	_	8	case	_	_
+5	על	על	ADP	ADP	ExtPos=ADP	8	case	_	_
 6	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	fixed	_	_
 7-8	החוקרים	_	_	_	_	_	_	_	_
 7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
@@ -3023,8 +3023,8 @@
 30	טבע	טבע	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
 31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-36
+# newpar
 # text = במרכז הפסיפס עובר ציר אורך מרכזי, ובו מדליונים המכילים גם אלמנטים אחרים מאשר ציפורים; המדליון שמעל האמפורה, למשל, מציג סל גדול ובו שפע של פירות, כעין מנחה למקדש.
 1-2	במרכז	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -3209,8 +3209,8 @@
 13	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	12	nummod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-41
+# newpar
 # text = נושא הפסיפס, לדעת חוקרים רבים, הוא זיכרון החיים את המתים, והמעבר בין העולם הזה לעולם הבא.
 1	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
 2-3	הפסיפס	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3304,7 +3304,7 @@
 
 # sent_id = iahltwiki_bird-mosaic-43
 # text = על פי תפיסה זו, יש לראות, למשל, את הציפור בכלוב כסמל לנשמה הכלואה בגוף, המבדיל אותה מהנשמות נטולות הגוף שבעולם הבא.
-1	על	על	ADP	ADP	_	3	case	_	_
+1	על	על	ADP	ADP	ExtPos=ADP	3	case	_	_
 2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
 3	תפיסה	תפיסה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
 4	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	SpaceAfter=No
@@ -3448,7 +3448,7 @@
 27-28	הבשורה	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	Entity=(WOA
 28	בשורה	בשורה	PROPN	PROPN	_	19	parataxis	_	_
-29	על	על	ADP	ADP	_	32	case	_	SpaceAfter=No
+29	על	על	ADP	ADP	ExtPos=ADP	32	case	_	SpaceAfter=No
 30	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
 31	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	fixed	_	_
 32	מתי	מתי	PROPN	PROPN	_	28	nmod	_	Entity=WOA)|SpaceAfter=No
@@ -3477,7 +3477,7 @@
 12	,	,	PUNCT	PUNCT	_	20	punct	_	_
 13-14	שבניגוד	_	_	_	_	_	_	_	_
 13	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
-14	בניגוד	בניגוד	ADP	ADP	_	18	case	_	_
+14	בניגוד	בניגוד	ADP	ADP	ExtPos=ADP	18	case	_	_
 15-16	לשאר	_	_	_	_	_	_	_	_
 15	ל	ל	ADP	ADP	_	14	fixed	_	_
 16	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	18	det	_	_
@@ -3508,8 +3508,8 @@
 35	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
 36	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-47
+# newpar
 # text = נירית שלו-כליפא, חוקרת מ"יד בן צבי", מצאה בשריגי הגפן באמנות הנוצרית הליטורגית ביטוי ליין, המסמל את דמו של ישו.
 1	נירית	נירית	PROPN	PROPN	_	14	nsubj	_	Entity=(PER
 2	שלו	שלו	PROPN	PROPN	_	1	flat	_	SpaceAfter=No
@@ -3580,7 +3580,7 @@
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	מאמינים	מאמין	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound	_	_
 16	,	,	PUNCT	PUNCT	_	17	punct	_	_
-17	כך	כך	ADV	ADV	_	21	mark	_	_
+17	כך	כך	ADV	ADV	ExtPos=SCONJ	21	mark	_	_
 18-20	שהפסיפס	_	_	_	_	_	_	_	_
 18	ש	ש	SCONJ	SCONJ	_	17	fixed	_	_
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
@@ -3676,7 +3676,7 @@
 36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
 37	מאמינים	מאמין	NOUN	NOUN	Gender=Masc|Number=Plur	32	obl	_	_
 38	,	,	PUNCT	PUNCT	_	46	punct	_	_
-39	כפי	כפי	SCONJ	SCONJ	_	46	mark	_	_
+39	כפי	כפי	SCONJ	SCONJ	ExtPos=SCONJ	46	mark	_	_
 40-42	שהשקנאית	_	_	_	_	_	_	_	_
 40	ש	ש	SCONJ	SCONJ	_	39	fixed	_	_
 41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
@@ -3695,8 +3695,8 @@
 52	ה	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	51	nmod:poss	_	_
 53	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-50
+# newpar
 # text = השוואה לפסיפס הציפורים בקיסריה
 1	השוואה	השוואה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2-3	לפסיפס	_	_	_	_	_	_	_	_
@@ -3709,8 +3709,8 @@
 6	ב	ב	ADP	ADP	_	7	case	_	_
 7	קיסריה	קיסריה	PROPN	PROPN	_	3	nmod	_	Entity=(GPE
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-51
+# newpar
 # text = ערך מורחב – פסיפס הציפורים (קיסריה)
 1	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	מורחב	מורחב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
@@ -3723,8 +3723,8 @@
 8	קיסריה	קיסריה	PROPN	PROPN	_	4	parataxis	_	Entity=(GPE)|SpaceAfter=No
 9	)	)	PUNCT	PUNCT	_	8	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_bird-mosaic-52
+# newpar
 # text = בשנת 1950 נתגלתה בגבעה בקיסריה רצפת פסיפס מלבנית בגודל של כ-16 על 14 מטרים.
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -3861,12 +3861,12 @@
 33	ביזנטית	ביזנטי	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	Entity=EVE)
 34	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_pinkwashing
 # meta::domain = misc
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%A0%D7%A7%D7%95%D7%95%D7%A9%D7%99%D7%A0%D7%92_(%D7%9C%D7%94%D7%98%22%D7%91)
 # meta::title = פינקוושינג (להט"ב)
 # sent_id = iahltwiki_pinkwashing-1
+# newpar
 # text = המונח פינקוושינג (באנגלית: Pinkwashing) הוא הלחם של שתי המילים "ורוד" (pink) ו"טיוח" (whitewashing), אשר בהקשר של זכויות להט"ב משמש לתיאור מגוון של אסטרטגיות שיווקיות ופוליטיות שמטרתן לקדם מוצרים, מדינות, אנשים או ישויות באמצעות הצגתם כגיי פרנדלי, על מנת להיתפש כמתקדמים, מודרניים וסובלנים.
 1-2	המונח	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -3939,7 +3939,7 @@
 60	גיי	גיי	NOUN	NOUN	Gender=Masc|Number=Sing	57	nmod	_	_
 61	פרנדלי	פרנדלי	ADJ	ADJ	Gender=Masc|Number=Sing	60	amod	_	SpaceAfter=No
 62	,	,	PUNCT	PUNCT	_	65	punct	_	_
-63	על	על	ADP	ADP	_	65	case	_	_
+63	על	על	ADP	ADP	ExtPos=ADP	65	case	_	_
 64	מנת	מנה	ADP	ADP	_	63	fixed	_	_
 65	להיתפש	נתפש	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	48	advcl	_	_
 66-67	כמתקדמים	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3952,8 +3952,8 @@
 71	סובלנים	סובלן	ADJ	ADJ	Gender=Masc|Number=Plur	67	conj	_	_
 72	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-2
+# newpar
 # text = את הביטוי טבעו במקור תומכי המאבק בסרטן השד כאמצעי לזהות חברות שטענו כי הן תומכות בחולי סרטן השד, בעוד שלמעשה הן מרוויחות ממחלתן.
 1	את	את	ADP	ADP	Case=Acc	3	case	_	_
 2-3	הביטוי	_	_	_	_	_	_	_	_
@@ -3992,7 +3992,7 @@
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
 27	שד	שד	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound	_	Entity=MISC)
 28	,	,	PUNCT	PUNCT	_	33	punct	_	_
-29	בעוד	בעוד	SCONJ	SCONJ	_	33	mark	_	_
+29	בעוד	בעוד	SCONJ	SCONJ	ExtPos=SCONJ	33	mark	_	_
 30-31	שלמעשה	_	_	_	_	_	_	_	_
 30	ש	ש	SCONJ	SCONJ	_	29	fixed	_	_
 31	למעשה	למעשה	ADV	ADV	_	33	advmod	_	_
@@ -4004,13 +4004,13 @@
 36	ן	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
 37	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-3
+# newpar
 # text = הגירה
 1	הגירה	הגירה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-4
+# newpar
 # text = בשנת 2013, הקמפיין לזכויות אדם הצהיר על תמיכתו הרשמית ברפורמת הגירה מקיפה והתחייב לסייע למהגרים, הזקוקים לשירותי בריאות, ביטחון, מקלט או אזרחות.
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4060,8 +4060,8 @@
 36	אזרחות	אזרחות	NOUN	NOUN	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-5
+# newpar
 # text = בשנת 2012 הואשם ג'ייסון קני, שר האזרחות וההגירה של קנדה, בפינקוושינג לאחר שהודעת דוא"ל שכותרתה "פליטים להט"בים מאיראן" נשלחה לאלפי קנדים.
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4085,7 +4085,7 @@
 17-18	בפינקוושינג	_	_	_	_	_	_	_	_
 17	ב	ב	ADP	ADP	_	18	case	_	_
 18	פינקוושינג	פינקוושינג	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
-19	לאחר	לאחר	ADP	ADP	_	32	mark	_	_
+19	לאחר	לאחר	ADP	ADP	ExtPos=SCONJ	32	mark	_	_
 20-21	שהודעת	_	_	_	_	_	_	_	_
 20	ש	ש	SCONJ	SCONJ	_	19	fixed	_	_
 21	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	nsubj:pass	_	_
@@ -4186,16 +4186,16 @@
 26	איראן	איראן	PROPN	PROPN	_	24	nmod	_	Entity=(GPE)|SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-8
+# newpar
 # text = ארצות הברית
 1	ארצות	ארץ	PROPN	PROPN	Definite=Cons	0	root	_	Entity=(GPE
 2-3	הברית	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	ברית	ברית	PROPN	PROPN	_	1	compound	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-9
+# newpar
 # text = יחסי הציבור של ממשלת ישראל
 1	יחסי	יחס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 2-3	הציבור	_	_	_	_	_	_	_	_
@@ -4205,8 +4205,8 @@
 5	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod:poss	_	_
 6	ישראל	ישראל	PROPN	PROPN	_	5	compound	_	Entity=(GPE
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-10
+# newpar
 # text = באוגוסט 2011 דיווח הג'רוזלם פוסט כי משרד החוץ מקדם את ישראל הגאה (Gay Israel) כחלק ממאמציה נגד הסטריאוטיפים השליליים שיש לאמריקאים ולליברלים רבים כלפי ישראל.
 1-2	באוגוסט	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4371,8 +4371,8 @@
 47	"	"	PUNCT	PUNCT	_	37	punct	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	_	19	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-13
+# newpar
 # text = עידו אהרוני, לשעבר ראש פרויקט "Brand Israel", הגיב לביקורת זו ואמר: "אנחנו לא מנסים להסתיר את הסכסוך אלא להרחיב את השיחה, אנחנו רוצים ליצור תחושה של רלוונטיות עם קהילות אחרות".
 1	עידו	עידו	PROPN	PROPN	_	12	nsubj	_	Entity=(PER
 2	אהרוני	אהרוני	PROPN	PROPN	_	1	flat	_	Entity=PER)|SpaceAfter=No
@@ -4446,8 +4446,8 @@
 17	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-15
+# newpar
 # text = יאיר קדר, במאי קולנוע הומוסקסואל ישראלי ופעיל זכויות אדם, אמר כי מדינת ישראל ראויה לשבח על יחסה כלפי הקהילה הלהט"בית, והטוענים אחרת "משרתים בסופו של דבר הומופוביה הרבה יותר מאשר דיאלוג ושלום".
 1	יאיר	יאיר	PROPN	PROPN	_	13	nsubj	_	Entity=(PER
 2	קדר	קדר	PROPN	PROPN	_	1	flat	_	Entity=PER)|SpaceAfter=No
@@ -4515,7 +4515,7 @@
 5	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
 6	להט"ביות	להט"בי	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
 7	ישראליות	ישראלי	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
-8	על	על	ADP	ADP	_	11	mark	_	_
+8	על	על	ADP	ADP	ExtPos=SCONJ	11	mark	_	_
 9-10	שלא	_	_	_	_	_	_	_	_
 9	ש	ש	SCONJ	SCONJ	_	8	fixed	_	_
 10	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
@@ -4526,14 +4526,14 @@
 14	האשמות	האשמה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obl	_	_
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-17
+# newpar
 # text = שיווק תאגידי
 1	שיווק	שיווק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	תאגידי	תאגידי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-18
+# newpar
 # text = באוסטרליה, הועלה חשש בנוגע למיסחור של זכויות להט"ב על ידי תאגידים גדולים.
 1-2	באוסטרליה	_	_	_	_	_	_	_	SpaceAfter=No
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4542,7 +4542,7 @@
 4	הועלה	הועלה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 5	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 6-7	בנוגע	_	_	_	_	_	_	_	_
-6	ב	ב	ADP	ADP	_	9	case	_	_
+6	ב	ב	ADP	ADP	ExtPos=ADP	9	case	_	_
 7	נוגע	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	6	fixed	_	_
 8-9	למיסחור	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	6	fixed	_	_
@@ -4550,28 +4550,28 @@
 10	של	של	ADP	ADP	Case=Gen	11	case	_	_
 11	זכויות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	nmod:poss	_	_
 12	להט"ב	להט"ב	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	compound	_	_
-13	על	על	ADP	ADP	_	15	case	_	_
+13	על	על	ADP	ADP	ExtPos=ADP	15	case	_	_
 14	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	fixed	_	_
 15	תאגידים	תאגיד	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 16	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-19
+# newpar
 # text = פעילים אנטי-אסלאמיים
 1	פעילים	פעיל	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 2	אנטי	אנטי	ADV	ADV	Prefix=Yes	4	compound:affix	_	SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 4	אסלאמיים	אסלאמי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-20
+# newpar
 # text = תנועת אינטרסקס
 1	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
 2	אינטרסקס	אינטרסקס	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-21
+# newpar
 # text = באוגוסט 2016, ארגון הזכויות למען אינטרסקסואלים Zwischengeschlecht תיאר פעולות לקידום שוויון או חקיקה אזרחית, ללא איסור על "פגיעה באיברי המין של אינטרסקסואלים", כסוג של פינקוושינג.
 1-2	באוגוסט	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4657,15 +4657,15 @@
 27	תינוקות	תינוק	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
 28	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-23
+# newpar
 # text = השוואות בין מדינות
 1	השוואות	השוואה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 2	בין	בין	ADP	ADP	_	3	case	_	_
 3	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
 
-# newpar
 # sent_id = iahltwiki_pinkwashing-24
+# newpar
 # text = בניתוחו, לפבר טוען שמדובר בפינקוושינג - "הבלטה מכוונה של תמיכה בהומואים תוך התעלמות או הפחתה בערכן של סוגיות רלוונטיות אחרות של זכויות אדם".
 1-3	בניתוחו	_	_	_	_	_	_	_	SpaceAfter=No
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4733,15 +4733,15 @@
 17	של	של	ADP	ADP	Case=Gen	18	case	_	_
 18	רוסיה	רוסיה	PROPN	PROPN	_	15	nmod:poss	_	Entity=(GPE)
 19	כלפי	כלפי	ADP	ADP	_	21	case	_	_
-20-21	הלטה"ב	_	_	_	_	_	_	_	_
+20-21	הלטה"ב	_	_	_	Typo=Yes	_	_	_	_
 20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
-21	לטה"ב	להט"ב	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur|Typo=Yes	15	nmod	_	_
+21	לטה"ב	להט"ב	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	15	nmod	_	_
 22-23	במהלך	_	_	_	_	_	_	_	_
-22	ב	ב	ADP	ADP	_	24	case	_	_
+22	ב	ב	ADP	ADP	ExtPos=ADP	24	case	_	_
 23	מהלך	מהלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	fixed	_	_
 24	אולימפיאדת	אולימפיאדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	Entity=(EVE
 25	סוצ'י	סוצ'י	PROPN	PROPN	_	24	compound	_	Entity=EVE)
-26	אל	אל	ADP	ADP	_	28	case	_	_
+26	אל	אל	ADP	ADP	ExtPos=ADP	28	case	_	_
 27	מול	מול	ADP	ADP	_	26	fixed	_	_
 28-29	שתיקתם	_	_	_	_	_	_	_	_
 28	שתיקת	שתיקה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
@@ -4763,12 +4763,12 @@
 41	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
 42	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_mas-revah-hon
 # meta::domain = finance
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%9E%D7%A1_%D7%A8%D7%95%D7%95%D7%97_%D7%94%D7%95%D7%9F
 # meta::title = מס רווח הון
 # sent_id = iahltwiki_mas-revah-hon-1
+# newpar
 # text = מס רווח הוןהוא מס המוטל על ישות המוכרת נכס תוך גידול בהון שלה; גידול הון זה מבוסס על ההפרש שבין תמורה שהתקבלה על מכירת נכס לבין המחיר בו נרכש במקור ("יתרת המחיר המקורי").
 1	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(MISC
 2	רווח	רווח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	_
@@ -4849,8 +4849,8 @@
 9	ישראל	ישראל	PROPN	PROPN	_	8	obj	_	Entity=(GPE)|SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-3
+# newpar
 # text = מס רווחי הון בישראל מוטל במסגרת חלק ה' של פקודת מס הכנסה.
 1	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj:pass	_	Entity=(MISC
 2	רווחי	רווח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound	_	_
@@ -4860,7 +4860,7 @@
 5	ישראל	ישראל	PROPN	PROPN	_	1	nmod	_	Entity=(GPE)
 6	מוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 7-8	במסגרת	_	_	_	_	_	_	_	_
-7	ב	ב	ADP	ADP	_	9	case	_	_
+7	ב	ב	ADP	ADP	ExtPos=ADP	9	case	_	_
 8	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	7	fixed	_	_
 9	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
 10	ה'	ה'	NUM	NUM	_	9	flat	_	_
@@ -4918,8 +4918,8 @@
 37	)	)	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-5
+# newpar
 # text = המס על רוב רווחי ההון בישראל עמד על 20% עד לשנת 2012, אז הועלה בהמלצת ועדת טרכטנברג בהוראת ממשלת ישראל השלושים ושתיים לשיעור של 25%.
 1-2	המס	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -4938,7 +4938,7 @@
 12-13	20%	_	_	_	_	_	_	_	_
 12	20	20	NUM	NUM	_	13	nummod	_	_
 13	%	%	SYM	SYM	Gender=Masc|Number=Plur,Sing	10	obl	_	_
-14	עד	עד	ADP	ADP	_	16	case	_	_
+14	עד	עד	ADP	ADP	ExtPos=ADP	16	case	_	_
 15-16	לשנת	_	_	_	_	_	_	_	_
 15	ל	ל	ADP	ADP	_	14	fixed	_	_
 16	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
@@ -4983,7 +4983,7 @@
 7	15	15	NUM	NUM	_	8	nummod	_	_
 8	%	%	SYM	SYM	Gender=Masc|Number=Plur,Sing	4	obl	_	_
 9	בלבד	בלבד	ADV	ADV	_	8	advmod	_	_
-10	על	על	ADP	ADP	_	12	case	_	_
+10	על	על	ADP	ADP	ExtPos=ADP	12	case	_	_
 11	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	fixed	_	_
 12	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	Entity=(WOA
 13	91(ב)(3)(א	91(ב)(3)(א	NUM	NUM	_	12	flat	_	SpaceAfter=No
@@ -5001,8 +5001,8 @@
 22	הכנסה	הכנסה	PROPN	PROPN	_	20	compound	_	Entity=MISC)WOA)
 23	:	:	PUNCT	PUNCT	_	22	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-7
+# newpar
 # text = לפי סעיף זה קיימת הקלה זו במיסוי רווחים ממלווה קצר מועד (מק"מ) ואיגרות חוב לא צמודות.
 1	לפי	לפי	ADP	ADP	_	2	case	_	_
 2	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
@@ -5030,8 +5030,8 @@
 21	צמודות	צמוד	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-8
+# newpar
 # text = העלאת שיעורו של מס רווח ההון לא גרמה להעלאה בהכנסות הממשלה ממיסוי רווחי הון, ולכן נחשבת לכישלון, וכך טען גם בנק ישראל במחקר שפרסם באוגוסט 2015.
 1	העלאת	העלאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nsubj	_	_
 2-3	שיעורו	_	_	_	_	_	_	_	_
@@ -5087,8 +5087,8 @@
 40	2015	2015	NUM	NUM	_	39	nmod:unmarked	_	Entity=TIMEX)|SpaceAfter=No|TemporalNPAdjunct=Yes
 41	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-9
+# newpar
 # text = בישראל קיימות שתי שיטות לחישוב גובה המס:
 1-2	בישראל	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -5105,8 +5105,8 @@
 10	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound	_	_
 11	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-10
+# newpar
 # text = בחלק מהמקרים ניתן לקזז הפסדי הון מרווחי הון, ולהקטין את חבות המס.
 1-2	בחלק	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -5170,7 +5170,7 @@
 25	מ	מ	ADP	ADP	_	27	case	_	_
 26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
 27	רווחים	רווח	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	_
-28	קודם	קודם	ADP	ADP	_	30	case	_	_
+28	קודם	קודם	ADP	ADP	ExtPos=ADP	30	case	_	_
 29-30	לחישוב	_	_	_	_	_	_	_	_
 29	ל	ל	ADP	ADP	_	28	fixed	_	_
 30	חישוב	חישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
@@ -5181,7 +5181,7 @@
 
 # sent_id = iahltwiki_mas-revah-hon-12
 # text = החל ב-1 בינואר 2012, מקזזים מנכי המס (הברוקרים חברי הבורסה) הפסדי הון מול רווחי הון אשר מתקבלים באותה שנת מס באופן הממזער את חבות המס של המשקיע באותה שנת מס.
-1	החל	החל	ADP	ADP	_	4	case	_	_
+1	החל	החל	ADP	ADP	ExtPos=ADP	4	case	_	_
 2	ב	ב	ADP	ADP	_	1	fixed	_	SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 4	1	1	NUM	NUM	_	9	obl	_	Entity=(TIMEX
@@ -5241,14 +5241,14 @@
 # sent_id = iahltwiki_mas-revah-hon-13
 # text = במידה ונותרים הפסדים גם מעבר לאותה שנת מס, על הנישום להגיש דו"ח למס הכנסה לקבלת החזרים.
 1-2	במידה	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	4	mark	_	_
+1	ב	ב	ADP	ADP	ExtPos=SCONJ	4	mark	_	_
 2	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	1	fixed	_	_
 3-4	ונותרים	_	_	_	_	_	_	_	_
 3	ו	ו	CCONJ	CCONJ	_	1	fixed	_	_
 4	נותרים	נותר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	16	advcl	_	_
 5	הפסדים	הפסד	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 6	גם	גם	ADV	ADV	_	10	advmod	_	_
-7	מעבר	מעבר	ADP	ADP	_	10	case	_	_
+7	מעבר	מעבר	ADP	ADP	ExtPos=ADP	10	case	_	_
 8-9	לאותה	_	_	_	_	_	_	_	_
 8	ל	ל	ADP	ADP	_	7	fixed	_	_
 9	אותה	אותו	PRON	PRON	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|Person=3	10	det	_	_
@@ -5271,8 +5271,8 @@
 23	החזרים	החזר	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	16	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-14
+# newpar
 # text = חישוב מס רווח הון בשוק ההון נעשה עם מימושו של רווח זה, כלומר עם מכירת נייר הערך, משיכת כספי הפיקדון, או קבלת ריבית מאיגרת חוב.
 1	חישוב	חישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 2	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	Entity=(MISC
@@ -5342,7 +5342,7 @@
 20	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	det	_	_
 21	מוגדר	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	7	conj	_	_
 22-23	בנפרד	_	_	_	_	_	_	_	_
-22	ב	ב	ADP	ADP	_	25	case	_	_
+22	ב	ב	ADP	ADP	ExtPos=ADP	25	case	_	_
 23	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	22	fixed	_	_
 24-25	ממס	_	_	_	_	_	_	_	_
 24	מ	מ	ADP	ADP	_	22	fixed	_	_
@@ -5405,8 +5405,8 @@
 27	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound	_	_
 28	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-17
+# newpar
 # text = עבור כל נייר ערך בתיק הלקוח, שמור "מחיר קנייה ממוצע", אשר מתעדכן מדי קנייה לממוצע המשוקלל של מחירי היחידות שקנה עד לאותו רגע, בהתאם למשקלן בהחזקותיו.
 1	עבור	עבור	ADP	ADP	_	3	case	_	_
 2	כל	כול	DET	DET	Definite=Cons|PronType=Tot	3	det	_	_
@@ -5444,14 +5444,14 @@
 29-30	שקנה	_	_	_	_	_	_	_	_
 29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
 30	קנה	קנה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	28	acl:relcl	_	_
-31	עד	עד	ADP	ADP	_	34	case	_	_
+31	עד	עד	ADP	ADP	ExtPos=ADP	34	case	_	_
 32-33	לאותו	_	_	_	_	_	_	_	_
 32	ל	ל	ADP	ADP	_	31	fixed	_	_
 33	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	det	_	_
 34	רגע	רגע	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	_	39	punct	_	_
 36-37	בהתאם	_	_	_	_	_	_	_	_
-36	ב	ב	ADP	ADP	_	39	case	_	_
+36	ב	ב	ADP	ADP	ExtPos=ADP	39	case	_	_
 37	התאם	התאם	NOUN	NOUN	Gender=Masc|Number=Sing	36	fixed	_	_
 38-40	למשקלן	_	_	_	_	_	_	_	_
 38	ל	ל	ADP	ADP	_	36	fixed	_	_
@@ -5510,8 +5510,8 @@
 32	בורסה	בורסה	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound	_	_
 33	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-19
+# newpar
 # text = בעל ניירות ערך, אשר הפסיד במסחר (בלי לשקלל את עמלות הבנק) כסף, יוכל לקזז הפסדי הון מול רווחי הון באותה שנת מס.
 1	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nsubj	_	_
 2	ניירות	נייר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound	_	_
@@ -5531,7 +5531,7 @@
 14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
 15	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound	_	_
 16	)	)	PUNCT	PUNCT	_	11	punct	_	_
-17	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+17	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	1	punct	_	_
 19	יוכל	יכל	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Tense=Fut	20	aux	_	_
 20	לקזז	קיזז	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -5623,7 +5623,7 @@
 58-59	ששילם	_	_	_	_	_	_	_	_
 58	ש	ש	SCONJ	SCONJ	_	59	mark	_	_
 59	שילם	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	57	acl:relcl	_	_
-60	עד	עד	ADP	ADP	_	62	mark	_	_
+60	עד	עד	ADP	ADP	ExtPos=SCONJ	62	mark	_	_
 61-62	שישלם	_	_	_	_	_	_	_	_
 61	ש	ש	SCONJ	SCONJ	_	60	fixed	_	_
 62	ישלם	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	53	advcl	_	_
@@ -5636,7 +5636,7 @@
 68-69	הכולל	_	_	_	_	_	_	_	_
 68	ה	ה	DET	DET	Definite=Def|PronType=Art	69	det	_	_
 69	כולל	כולל	ADJ	ADJ	Gender=Masc|Number=Sing	65	amod	_	_
-70	עד	עד	ADP	ADP	_	74	case	_	_
+70	עד	עד	ADP	ADP	ExtPos=ADP	74	case	_	_
 71-72	לאותו	_	_	_	_	_	_	_	_
 71	ל	ל	ADP	ADP	_	70	fixed	_	_
 72	אותו	אותו	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	74	det	_	_
@@ -5645,8 +5645,8 @@
 74	רגע	רגע	NOUN	NOUN	Gender=Masc|Number=Sing	65	nmod	_	_
 75	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-21
+# newpar
 # text = ניתן להעביר הפסדי הון בין שנים, באמצעות הגשת דו"ח שנתי למס הכנסה (ולחסוך תשלום מיסים בשנה העוקבת), ללא הגבלה בשנים.
 1	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 2	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj:pass	_	_
@@ -5758,8 +5758,8 @@
 45	ריביות	ריבית	NOUN	NOUN	Gender=Fem|Number=Plur	43	conj	_	_
 46	.	.	PUNCT	PUNCT	_	28	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mas-revah-hon-24
+# newpar
 # text = התנהגות בלתי סימטרית זו יוצרת אנומליות שונות בשוק, אשר מעודדות בעלי רווחי הון "לנעול" הפסדים באמצעות מכירת ניירות הערך כאשר ערכיהם נמוכים.
 1	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 2	בלתי	בלתי	ADV	ADV	_	3	compound:affix	_	_
@@ -5807,7 +5807,7 @@
 8	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod:poss	_	_
 9	לעיתים	לעתים	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	14	punct	_	_
-11	מאחר	מאחר	SCONJ	SCONJ	_	14	mark	_	_
+11	מאחר	מאחר	SCONJ	SCONJ	ExtPos=SCONJ	14	mark	_	_
 12-13	שהן	_	_	_	_	_	_	_	_
 12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
 13	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
@@ -5836,12 +5836,12 @@
 30	סוחרים	סוחר	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod:poss	_	_
 31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_reidat-haadama-bemifratz-eilat-1995
 # meta::domain = event
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A8%D7%A2%D7%99%D7%93%D7%AA_%D7%94%D7%90%D7%93%D7%9E%D7%94_%D7%91%D7%9E%D7%A4%D7%A8%D7%A5_%D7%90%D7%99%D7%9C%D7%AA_(1995)
 # meta::title = רעידת האדמה במפרץ אילת (1995)
 # sent_id = iahltwiki_reidat-haadama-bemifratz-eilat-1995-1
+# newpar
 # text = רעידת האדמה במפרץ אילת בשנת 1995 הייתה רעידת אדמה אשר התרחשה ב-22 בנובמבר 1995 בשעה 06:15 (זמן מקומי) באזור מפרץ אילת, כ-150 קילומטר דרומית לאילת.
 1	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nsubj	_	_
 2-3	האדמה	_	_	_	_	_	_	_	_
@@ -5955,8 +5955,8 @@
 16	נפצעו	נפצע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	5	conj	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_reidat-haadama-bemifratz-eilat-1995-5
+# newpar
 # text = המוקד של רעידת האדמה היה 60 קילומטרים מדרום לחופי אילת, באזור הנמצא בסמוך לגבול בין מצרים, ישראל, ירדן וערב הסעודית.
 1-2	המוקד	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -5984,7 +5984,7 @@
 18	ה	ה	SCONJ	SCONJ	_	19	mark	_	_
 19	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	17	acl:relcl	_	_
 20-21	בסמוך	_	_	_	_	_	_	_	_
-20	ב	ב	ADP	ADP	_	19	advmod	_	_
+20	ב	ב	ADP	ADP	ExtPos=ADV	19	advmod	_	_
 21	סמוך	סמוך	ADJ	ADJ	Gender=Masc|Number=Sing	20	fixed	_	_
 22-23	לגבול	_	_	_	_	_	_	_	_
 22	ל	ל	ADP	ADP	Definite=Def|PronType=Art	23	case	_	_
@@ -6046,8 +6046,8 @@
 14	היטב	היטב	ADV	ADV	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_reidat-haadama-bemifratz-eilat-1995-8
+# newpar
 # text = רעידת האדמה הורגשה אף בלבנון ובסוריה, וזו הייתה רעידת האדמה החזקה ביותר בבקעת הירדן מאז רעידת האדמה ביריחו בשנת 1927, אשר אירעה בקרבת ים המלח.
 1	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 2-3	האדמה	_	_	_	_	_	_	_	_
@@ -6082,7 +6082,7 @@
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	ירדן	ירדן	PROPN	PROPN	_	22	compound	_	Entity=LOC)
 25-26	מאז	_	_	_	_	_	_	_	_
-25	מ	מ	ADP	ADP	_	27	case	_	_
+25	מ	מ	ADP	ADP	ExtPos=ADP	27	case	_	_
 26	אז	אז	ADV	ADV	_	25	fixed	_	_
 27	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nmod	_	_
 28-29	האדמה	_	_	_	_	_	_	_	_
@@ -6208,8 +6208,8 @@
 22	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_reidat-haadama-bemifratz-eilat-1995-12
+# newpar
 # text = בסעודיה דווח על שתי נשים שנהרגו כתוצאה מרעידת האדמה ובמצרים דווח על חמישה מקרי מוות כתוצאה מרעידת האדמה כאשר שלושה מהם נהרגו בעיירת הנופש נואיבה.
 1-2	בסעודיה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -6318,12 +6318,12 @@
 32	חקל	חקל	PROPN	PROPN	_	30	conj	_	Entity=(GPE)
 33	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_piskat-hitgabrut
 # meta::domain = law
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%A4%D7%A1%D7%A7%D7%AA_%D7%94%D7%AA%D7%92%D7%91%D7%A8%D7%95%D7%AA
 # meta::title = פסקת התגברות
 # sent_id = iahltwiki_piskat-hitgabrut-1
+# newpar
 # text = פסקת התגברות היא סעיף בחוק יסוד המאפשר לכנסת לתת תוקף לחקיקה הסותרת חוק יסוד זה.
 1	פסקת	פסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(MISC
 2	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	Entity=MISC)
@@ -6352,8 +6352,8 @@
 20	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	det	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-2
+# newpar
 # text = מטרתה של פסקת התגברות, לפי תומכיה, היא לאזן את הכוח הרב שבידי בית המשפט העליון מאז המהפכה החוקתית וליצור דיאלוג חוקתי בין הרשויות, שיש ביניהן הפרדה.
 1-2	מטרתה	_	_	_	_	_	_	_	_
 1	מטרת	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj:outer	_	_
@@ -6387,7 +6387,7 @@
 23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
 24	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	Entity=ORG)
 25-26	מאז	_	_	_	_	_	_	_	_
-25	מ	מ	ADP	ADP	_	28	case	_	_
+25	מ	מ	ADP	ADP	ExtPos=ADP	28	case	_	_
 26	אז	אז	ADV	ADV	_	25	fixed	_	_
 27-28	המהפכה	_	_	_	_	_	_	_	_
 27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
@@ -6454,7 +6454,7 @@
 29-30	שנפסלו	_	_	_	_	_	_	_	_
 29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
 30	נפסלו	נפסל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	28	acl:relcl	_	_
-31	על	על	ADP	ADP	_	33	case	_	_
+31	על	על	ADP	ADP	ExtPos=ADP	33	case	_	_
 32	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	31	fixed	_	_
 33	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
 34-35	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
@@ -6492,8 +6492,8 @@
 58	כנסת	כנסת	PROPN	PROPN	_	56	compound	_	Entity=ORG)
 59	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-4
+# newpar
 # text = בשנת 1994 נחקקה פסקת התגברות כתיקון לחוק יסוד: חופש העיסוק (סעיף 8 לחוק היסוד).
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -6529,7 +6529,7 @@
 # sent_id = iahltwiki_piskat-hitgabrut-5
 # text = במהלך השנים עלו הצעות להוסיף פסקה דומה לחוק יסוד: כבוד האדם וחירותו, וכן הוצעה הסדרה כללית של סוגיה זו בהצעת חוק יסוד: החקיקה.
 1-2	במהלך	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	4	case	_	_
+1	ב	ב	ADP	ADP	ExtPos=ADP	4	case	_	_
 2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	השנים	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
@@ -6584,8 +6584,8 @@
 6	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-7
+# newpar
 # text = בחוק יסוד : חופש העיסוק
 1-2	בחוק	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -6597,8 +6597,8 @@
 6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
 7	עיסוק	עיסוק	PROPN	PROPN	Gender=Masc|Number=Sing	5	compound	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-8
+# newpar
 # text = ערך מורחב – חוק בשר ומוצריו
 1	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	מורחב	מורחב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
@@ -6610,8 +6610,8 @@
 7	מוצרי	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
 8	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-9
+# newpar
 # text = בשנת 1993 פסק בג"ץ כי ההסדר (הזמני) שמנע מחברת 'מיטראל' ייבוא בשר שאינו כשר אינו ענייני ודינו להתבטל.
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -6701,8 +6701,8 @@
 36	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound	_	_
 37	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-11
+# newpar
 # text = כדי למנוע את המשבר יעץ המשנה לנשיא בית המשפט העליון, אהרן ברק, להוסיף לחוק היסוד פסקת התגברות.
 1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
 2	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	advcl	_	_
@@ -6739,8 +6739,8 @@
 26	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound	_	Entity=MISC)|SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-12
+# newpar
 # text = כמודל לסעיף זה שימשה ההוראה בצ'רטר הקנדי לזכויות וחירויות (Canadian Charter of Rights and freedoms), שנחקק בשנת 1982, כחלק מתהליך של היפרדות חוקתית של קנדה מבריטניה, בהובלת ראש ממשלת קנדה פייר אליוט טרודו.
 1-2	כמודל	_	_	_	_	_	_	_	_
 1	כ	כ	ADP	ADP	_	2	case	_	_
@@ -6989,10 +6989,10 @@
 29	הארכה	הארכה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
 30	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-17
+# newpar
 # text = באשר לעובדה כי פסקת התגברות קיימת בחוק יסוד: חופש העיסוק אך לא בחוק יסוד: כבוד האדם וחירותו סבר נשיא בית המשפט העליון, אהרן ברק, כי "זוהי ללא ספק אנומליה, אשר ההסבר היחיד לה הוא היסטורי.
-1	באשר	באשר	ADP	ADP	_	3	case	_	_
+1	באשר	באשר	ADP	ADP	ExtPos=ADP	3	case	_	_
 2-3	לעובדה	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	Definite=Def|PronType=Art	1	fixed	_	_
 3	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
@@ -7114,8 +7114,8 @@
 24	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	17	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-20
+# newpar
 # text = בג"ץ אישר את החוק ואת השימוש בפסקת ההתגברות.
 1	בג"ץ	בג"ץ	PROPN	PROPN	_	2	nsubj	_	Entity=(ORG)
 2	אישר	אישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -7185,8 +7185,8 @@
 36	עיסוק	עיסוק	PROPN	PROPN	Gender=Masc|Number=Sing	34	compound	_	Entity=MISC)
 37	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-22
+# newpar
 # text = הצעת חוק יסוד: החקיקה
 1	הצעת	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
 2	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	Entity=(MISC
@@ -7196,8 +7196,8 @@
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	חקיקה	חקיקה	PROPN	PROPN	Gender=Fem|Number=Sing	2	appos	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-23
+# newpar
 # text = ערך מורחב – הצעת חוק יסוד: החקיקה
 1	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	מורחב	מורחב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
@@ -7210,8 +7210,8 @@
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
 9	חקיקה	חקיקה	PROPN	PROPN	Gender=Fem|Number=Sing	5	appos	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-24
+# newpar
 # text = מפעם לפעם עולה הצעה לקבוע את עקרון ההתגברות באופן כללי כחלק מחקיקת חוק יסוד: החקיקה, ובכך לאפשר לכנסת לחזור ולחוקק חוקים שנפסלו על ידי בית המשפט.
 1-2	מפעם	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	2	case	_	_
@@ -7260,7 +7260,7 @@
 35-36	שנפסלו	_	_	_	_	_	_	_	_
 35	ש	ש	SCONJ	SCONJ	_	36	mark	_	_
 36	נפסלו	נפסל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	34	acl:relcl	_	_
-37	על	על	ADP	ADP	_	39	case	_	_
+37	על	על	ADP	ADP	ExtPos=ADP	39	case	_	_
 38	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	37	fixed	_	_
 39	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	obl	_	_
 40-41	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7553,7 +7553,7 @@
 26	ש	ש	SCONJ	SCONJ	_	40	mark	_	_
 27	פסילת	פסילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	40	nsubj	_	_
 28	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound	_	_
-29	משום	משום	SCONJ	SCONJ	_	32	mark	_	_
+29	משום	משום	SCONJ	SCONJ	ExtPos=SCONJ	32	mark	_	_
 30-31	שהוא	_	_	_	_	_	_	_	_
 30	ש	ש	SCONJ	SCONJ	_	29	fixed	_	_
 31	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
@@ -7605,15 +7605,15 @@
 67	ח"כים	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	64	nmod:poss	_	SpaceAfter=No
 68	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-31
+# newpar
 # text = בכנסת
 1-2	בכנסת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
 2	כנסת	כנסת	PROPN	PROPN	_	0	root	_	Entity=(ORG
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-32
+# newpar
 # text = פעמים אחדות הועלו בכנסת הצעות חוק פרטיות להוספת פסקת התגברות לחוק יסוד: כבוד האדם וחירותו.
 1	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:unmarked	_	TemporalNPAdjunct=Yes
 2	אחדות	אחת	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	1	nummod	_	_
@@ -7660,8 +7660,8 @@
 10	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-34
+# newpar
 # text = בממשלת ישראל השלושים ושלוש
 1-2	בממשלת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -7674,8 +7674,8 @@
 6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 7	שלוש	שלוש	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	5	conj	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-35
+# newpar
 # text = בהקשר לכך אמר שר הכלכלה נפתלי בנט על הכינוי "חוק עוקף בג"ץ" שניתן לעיתים בתקשורת לחקיקה כזו: "אין חוק עוקף בג"ץ, יש פסיקה עוקפת כנסת.
 1-2	בהקשר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -7789,8 +7789,8 @@
 9	כנסת	כנסת	PROPN	PROPN	_	6	nmod	_	Entity=(FAC)
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-38
+# newpar
 # text = בממשלת ישראל השלושים וארבע
 1-2	בממשלת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -7803,8 +7803,8 @@
 6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 7	ארבע	ארבע	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	5	conj	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-39
+# newpar
 # text = לסיעת "כולנו" ניתן חופש הצבעה בנושא זה.
 1-2	לסיעת	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -7821,8 +7821,8 @@
 11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	det	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-40
+# newpar
 # text = בספטמבר 2017 פרסמו שרת המשפטים איילת שקד ושר החינוך נפתלי בנט הצעה לחקיקת חוק יסוד: החקיקה, בו נקבע בין השאר מנגנון התגברות ברוב של 61 חברי כנסת.
 1-2	בספטמבר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -7873,8 +7873,8 @@
 38	כנסת	כנסת	PROPN	PROPN	_	37	compound	_	SpaceAfter=No
 39	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-41
+# newpar
 # text = בראשית מאי 2018 אישרה ועדת השרים לענייני חקיקה פה אחד, הצעת חוק שמאפשרת לכנסת לחוקק ברוב חבריה (61) חוק שפסל בית המשפט בשל סתירה לחוק יסוד: כבוד האדם וחירותו.
 1-2	בראשית	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -7936,14 +7936,14 @@
 46	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	Entity=MISC)
 47	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-42
+# newpar
 # text = פולמוס ציבורי
 1	פולמוס	פולמוס	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	ציבורי	ציבורי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-43
+# newpar
 # text = הפולמוס הציבורי סביב פסקת ההתגברות הוא המשך של פולמוס ציבורי על היחסים בין הכנסת לבית המשפט העליון אשר נידון בהרחבה בעקבות המהפכה החוקתית.
 1-2	הפולמוס	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -7995,7 +7995,7 @@
 # sent_id = iahltwiki_piskat-hitgabrut-44
 # text = בנוסף למחלוקת הבסיסית האם ראוי להוסיף לחוק היסוד פסקת התגברות, בקרב התומכים בהצעה יש מחלוקת האם די ברוב של 61 חברי כנסת כדי לשוב ולחוקק חוק שבוטל, בדומה לפסקה בחוק יסוד: חופש העיסוק.
 1-2	בנוסף	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	4	case	_	_
+1	ב	ב	ADP	ADP	ExtPos=ADP	4	case	_	_
 2	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	1	fixed	_	_
 3-4	למחלוקת	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	1	fixed	_	_
@@ -8044,7 +8044,7 @@
 38	בוטל	בוטל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	36	acl:relcl	_	_
 39	,	,	PUNCT	PUNCT	_	43	punct	_	_
 40-41	בדומה	_	_	_	_	_	_	_	_
-40	ב	ב	ADP	ADP	_	43	case	_	_
+40	ב	ב	ADP	ADP	ExtPos=ADP	43	case	_	_
 41	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	40	fixed	_	_
 42-43	לפסקה	_	_	_	_	_	_	_	_
 42	ל	ל	ADP	ADP	Definite=Def|PronType=Art	40	fixed	_	_
@@ -8104,8 +8104,8 @@
 18	ספציפיות	ספציפי	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-47
+# newpar
 # text = טיעונים בעד הפסקה
 1	טיעונים	טיעון	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 2	בעד	בעד	ADP	ADP	_	4	case	_	_
@@ -8113,8 +8113,8 @@
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	פסקה	פסקה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-48
+# newpar
 # text = מצדדי הפסקה רואים בה איזון ראוי בין סמכותה של הכנסת לבין תפקידו של בית המשפט העליון.
 1	מצדדי	מצדד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2-3	הפסקה	_	_	_	_	_	_	_	_
@@ -8148,8 +8148,8 @@
 23	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	Entity=ORG)
 24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-49
+# newpar
 # text = במדינת ישראל אין חוקה אלא חוקי יסוד בלבד.
 1-2	במדינת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -8209,7 +8209,7 @@
 34	”	”	PUNCT	PUNCT	_	28	punct	_	_
 35	למשל	למשל	ADV	ADV	_	26	advmod	_	_
 36	נתמך	נתמך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	17	parataxis	_	_
-37	על	על	ADP	ADP	_	40	case	_	_
+37	על	על	ADP	ADP	ExtPos=ADP	40	case	_	_
 38	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	37	fixed	_	_
 39	32	32	NUM	NUM	_	40	nummod	_	_
 40	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	36	obl	_	_
@@ -8310,7 +8310,7 @@
 
 # sent_id = iahltwiki_piskat-hitgabrut-53
 # text = יתרה מזו, המהפכה החוקתית עליה הכריז ברק עשתה שימוש בחוק יסוד: כבוד האדם וחירותו כעוגן של המהפכה החוקתית.
-1	יתרה	יתרה	ADJ	ADJ	Gender=Fem|Number=Sing	13	advmod	_	_
+1	יתרה	יתרה	ADJ	ADJ	ExtPos=ADV|Gender=Fem|Number=Sing	13	advmod	_	_
 2-3	מזו	_	_	_	_	_	_	_	SpaceAfter=No
 2	מ	מ	ADP	ADP	_	1	fixed	_	_
 3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	fixed	_	_
@@ -8482,8 +8482,8 @@
 40	”	”	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-56
+# newpar
 # text = פרופ' גדעון ספיר ניסח את ההצדקה שבפסקה כזו בראייה עקרונית של החוקה כמיועדת ליצור דיאלוג.
 1	פרופ'	פרופ'	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(TTL)
 2	גדעון	גדעון	PROPN	PROPN	_	1	flat	_	Entity=(PER
@@ -8582,7 +8582,7 @@
 7	ל	ל	ADP	ADP	_	8	case	_	_
 8	הסכמה	הסכמה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
 9	רחבה	רחב	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
-10	באשר	באשר	ADP	ADP	_	12	case	_	_
+10	באשר	באשר	ADP	ADP	ExtPos=ADP	12	case	_	_
 11-12	לשאלה	_	_	_	_	_	_	_	_
 11	ל	ל	ADP	ADP	Definite=Def|PronType=Art	10	fixed	_	_
 12	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
@@ -8742,8 +8742,8 @@
 45	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	44	det	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-62
+# newpar
 # text = לעומת תפיסת החוקה כמשריינת ערכים יסודיים, מציע ספיר את 'המודל הדיאלוגי לחוקה'.
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
 2	תפיסת	תפיסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
@@ -8806,7 +8806,7 @@
 # sent_id = iahltwiki_piskat-hitgabrut-64
 # text = בהתאם לכך, תכליתה של החוקה איננה להעניק לבית המשפט יכולת לבלום חקיקה פוגענית של הפרלמנט, אלא לעודד שיח דמוקרטי רציני ומיושב בשאלות חוקתיות של זכויות אדם.
 1-2	בהתאם	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	4	case	_	_
+1	ב	ב	ADP	ADP	ExtPos=ADP	4	case	_	_
 2	התאם	התאם	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	לכך	_	_	_	_	_	_	_	SpaceAfter=No
 3	ל	ל	ADP	ADP	_	1	fixed	_	_
@@ -8967,7 +8967,7 @@
 25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
 26	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
 27	,	,	PUNCT	PUNCT	_	36	punct	_	_
-28	לאחר	לאחר	ADP	ADP	_	36	mark	_	_
+28	לאחר	לאחר	ADP	ADP	ExtPos=SCONJ	36	mark	_	_
 29-31	שהדיון	_	_	_	_	_	_	_	_
 29	ש	ש	SCONJ	SCONJ	_	28	fixed	_	_
 30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
@@ -9060,8 +9060,8 @@
 44	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound	_	_
 45	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-69
+# newpar
 # text = גם פרופ' יואב דותן הביע תמיכה בחקיקת פסקת התגברות.
 1	גם	גם	ADV	ADV	_	2	advmod	_	_
 2	פרופ'	פרופ'	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(TTL)
@@ -9133,8 +9133,8 @@
 40	יחסיים	יחסי	ADJ	ADJ	Gender=Masc|Number=Plur	38	conj	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-71
+# newpar
 # text = טיעונים נגד הפסקה
 1	טיעונים	טיעון	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 2	נגד	נגד	ADP	ADP	_	4	case	_	_
@@ -9142,8 +9142,8 @@
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
 4	פסקה	פסקה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-72
+# newpar
 # text = מתנגדי הפסקה טוענים כי מתן אפשרות לפרלמנט לחוקק חוק שנמצא מנוגד לחוקה על ידי בית המשפט, מערער על הגדרתה של החוקה ככזו.
 1	מתנגדי	מתנגד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2-3	הפסקה	_	_	_	_	_	_	_	_
@@ -9165,7 +9165,7 @@
 15-16	לחוקה	_	_	_	_	_	_	_	_
 15	ל	ל	ADP	ADP	Definite=Def|PronType=Art	16	case	_	_
 16	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
-17	על	על	ADP	ADP	_	19	case	_	_
+17	על	על	ADP	ADP	ExtPos=ADP	19	case	_	_
 18	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	17	fixed	_	_
 19	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
 20-21	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9285,8 +9285,8 @@
 15	ישראל	ישראל	PROPN	PROPN	_	11	nmod	_	Entity=(GPE)
 16	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-76
+# newpar
 # text = עוד טוענים המתנגדים כי בית המשפט העליון בישראל נוהג בריסון יחסי, ואינו מרבה לפסול חוקים, כך שאין צורך לאזן את סמכויותיו, בהן הוא משתמש באיפוק בעצמו.
 1	עוד	עוד	ADV	ADV	_	2	advmod	_	_
 2	טוענים	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
@@ -9317,7 +9317,7 @@
 21	לפסול	פסל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	20	xcomp	_	_
 22	חוקים	חוק	NOUN	NOUN	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	26	punct	_	_
-24	כך	כך	ADV	ADV	_	26	mark	_	_
+24	כך	כך	ADV	ADV	ExtPos=SCONJ	26	mark	_	_
 25-26	שאין	_	_	_	_	_	_	_	_
 25	ש	ש	SCONJ	SCONJ	_	24	fixed	_	_
 26	אין	אין	VERB	VERB	Polarity=Neg	13	advcl	_	Cxn=Existential-NotExistPred-VblPart
@@ -9343,7 +9343,7 @@
 
 # sent_id = iahltwiki_piskat-hitgabrut-77
 # text = על פי סקירת המכון הישראלי לדמוקרטיה, סך החוקים שנפסלו באופן זה עומד על 18 בלבד.
-1	על	על	ADP	ADP	_	3	case	_	_
+1	על	על	ADP	ADP	ExtPos=ADP	3	case	_	_
 2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
 3	סקירת	סקירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	obl	_	_
 4-5	המכון	_	_	_	_	_	_	_	_
@@ -9404,16 +9404,16 @@
 22	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	det	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-79
+# newpar
 # text = פולמוס על הצעות ספציפיות
 1	פולמוס	פולמוס	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	על	על	ADP	ADP	_	3	case	_	_
 3	הצעות	הצעה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
 4	ספציפיות	ספציפי	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-80
+# newpar
 # text = העלאתה של הצעה להוספת פסקת התגברות לחוק יסוד: כבוד האדם וחירותו, באפריל 2018, עוררה דיון ציבורי רחב:
 1-2	העלאתה	_	_	_	_	_	_	_	_
 1	העלאת	העלאה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
@@ -9450,16 +9450,16 @@
 27	רחב	רחב	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
 28	:	:	PUNCT	PUNCT	_	24	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-81
+# newpar
 # text = תמיכה בהצעה
 1	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2-3	בהצעה	_	_	_	_	_	_	_	_
 2	ב	ב	ADP	ADP	Definite=Def|PronType=Art	3	case	_	_
 3	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-82
+# newpar
 # text = יו"ר הבית היהודי השר נפתלי בנט ושרת המשפטים איילת שקד אמרו לאחר אישור הצעת החוק בוועדת השרים לענייני חקיקה: "הממשלה היום התחילה בבניית חומת ההפרדה בין שלוש הרשויות.
 1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	Entity=(TTL
 2-3	הבית	_	_	_	_	_	_	_	_
@@ -9641,8 +9641,8 @@
 21	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-87
+# newpar
 # text = גם פורום קהלת פרסם סרטון הקורא לאיזון בית המשפט העליון, בשל סמכויותיו החריגות ביחס למקובל בעולם.
 1	גם	גם	ADV	ADV	_	2	advmod	_	_
 2	פורום	פורום	PROPN	PROPN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(ORG
@@ -9671,7 +9671,7 @@
 19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
 20	חריגות	חריג	ADJ	ADJ	Gender=Fem|Number=Plur	17	acl:relcl	_	_
 21-22	ביחס	_	_	_	_	_	_	_	_
-21	ב	ב	ADP	ADP	_	24	case	_	_
+21	ב	ב	ADP	ADP	ExtPos=ADP	24	case	_	_
 22	יחס	יחס	NOUN	NOUN	Gender=Masc|Number=Sing	21	fixed	_	_
 23-24	למקובל	_	_	_	_	_	_	_	_
 23	ל	ל	ADP	ADP	Definite=Def|PronType=Art	21	fixed	_	_
@@ -9681,8 +9681,8 @@
 26	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
 27	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-88
+# newpar
 # text = התנועה למשילות ודמוקרטיה המליצה על חקיקת המודל הבריטי ולחלופין חקיקת פסקת ההתגברות, אך בכל מקרה ללא דרישת רוב מעבר ל-61 חברי הכנסת, שלשיטת התנועה פוגעת בריבונות הכנסת.
 1-2	התנועה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	Entity=(ORG
@@ -9719,7 +9719,7 @@
 25	ללא	ללא	ADP	ADP	_	26	case	_	_
 26	דרישת	דרישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nmod	_	_
 27	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound	_	_
-28	מעבר	מעבר	ADP	ADP	_	32	case	_	_
+28	מעבר	מעבר	ADP	ADP	ExtPos=ADP	32	case	_	_
 29	ל	ל	ADP	ADP	_	28	fixed	_	SpaceAfter=No
 30	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
 31	61	61	NUM	NUM	_	32	nummod	_	_
@@ -9768,7 +9768,7 @@
 15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
 16	נפסלים	נפסל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
 17	,	,	PUNCT	PUNCT	_	20	punct	_	_
-18	עד	עד	ADP	ADP	_	20	case	_	_
+18	עד	עד	ADP	ADP	ExtPos=ADP	20	case	_	_
 19-20	לרמה	_	_	_	_	_	_	_	_
 19	ל	ל	ADP	ADP	_	18	fixed	_	_
 20	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -9794,7 +9794,7 @@
 35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
 36	פסילה	פסילה	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound	_	_
 37	,	,	PUNCT	PUNCT	_	54	punct	_	_
-38	עד	עד	ADP	ADP	_	54	mark	_	_
+38	עד	עד	ADP	ADP	ExtPos=SCONJ	54	mark	_	_
 39-40	שחמש	_	_	_	_	_	_	_	_
 39	ש	ש	SCONJ	SCONJ	_	38	fixed	_	_
 40	חמש	חמש	NUM	NUM	Gender=Fem|NumType=Card	42	nummod	_	_
@@ -9811,7 +9811,7 @@
 49	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	54	obl	_	_
 50	,	,	PUNCT	PUNCT	_	49	punct	_	_
 51	תוך	תוך	ADP	ADP	_	54	case	_	_
-52	פחות	פחות	ADV	ADV	_	54	advmod	_	_
+52	פחות	פחות	ADV	ADV	ExtPos=ADV	54	advmod	_	_
 53-54	משנה	_	_	_	_	_	_	_	_
 53	מ	מ	ADP	ADP	_	52	fixed	_	_
 54	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	34	advcl	_	_
@@ -9823,8 +9823,8 @@
 58	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	56	compound	_	_
 59	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-90
+# newpar
 # text = אביחי מנדלבליט, היועץ המשפטי לממשלה, הביע בדצמבר 2020 תמיכה בביצוע שינויים משמעותיים במערכת המשפט, כולל פסקת התגברות.
 1	אביחי	אביחי	PROPN	PROPN	_	11	nsubj	_	Entity=(PER
 2	מנדלבליט	מנדלבליט	PROPN	PROPN	_	1	flat	_	Entity=PER)|SpaceAfter=No
@@ -9862,16 +9862,16 @@
 27	התגברות	התגברות	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound	_	Entity=MISC)|SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-91
+# newpar
 # text = התנגדות להצעה
 1	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2-3	להצעה	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	Definite=Def|PronType=Art	3	case	_	_
 3	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-92
+# newpar
 # text = בחותמים הפרופסורים ברק מדינה, יפעת ביטון, סוזי נבות, ארנה בן-נפתלי, איל בנבנישתי, גד ברזילי, אייל גרוס, אוריאל פרוקצ'יה ועמנואל גרוס.
 1-2	בחותמים	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
@@ -9962,8 +9962,8 @@
 23	כנסת	כנסת	PROPN	PROPN	_	22	compound	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-95
+# newpar
 # text = גם העמותה למשפט ציבורי בישראל יצאה נגד פסקת ההתגברות שהוצעה, בהודעה שעליה חתמו שופטי בית המשפט העליון בדימוס דורית ביניש, סלים ג'ובראן, יצחק זמיר ואליהו מצא והפרופסורים למשפטים מרדכי קרמניצר, סוזי נבות, ישי בלנק וקלוד קליין.
 1	גם	גם	ADV	ADV	_	3	advmod	_	_
 2-3	העמותה	_	_	_	_	_	_	_	_
@@ -10036,8 +10036,8 @@
 56	קליין	קליין	PROPN	PROPN	_	55	flat	_	Entity=PER)|SpaceAfter=No
 57	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-96
+# newpar
 # text = בנוסחים השונים נקבע במפורש, שבכוחה של הכנסת לחוקק חוק אף על פי שהוא פוגע שלא כדין בחובה לכבד את זכויות האדם.
 1-2	בנוסחים	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
@@ -10059,7 +10059,7 @@
 14	כנסת	כנסת	PROPN	PROPN	_	10	nmod:poss	_	Entity=ORG)
 15	לחוקק	חוקק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	csubj	_	_
 16	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
-17	אף	אף	ADV	ADV	_	22	mark	_	_
+17	אף	אף	ADV	ADV	ExtPos=SCONJ	22	mark	_	_
 18	על	על	ADP	ADP	_	17	fixed	_	_
 19	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	fixed	_	_
 20-21	שהוא	_	_	_	_	_	_	_	_
@@ -10115,8 +10115,8 @@
 23	ראוי	ראוי	ADJ	ADJ	Gender=Masc|Number=Sing	20	ccomp	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-98
+# newpar
 # text = נשיאת בית המשפט העליון, אסתר חיות, התנגדה למהלך ואמרה: "מדובר בהתגברות על זכויות האדם של כל פרט ופרט בחברה הישראלית" והוסיפה ש"ההצעה רעה ומסוכנת ועלולה לגרום לישראל נזק חסר תקנה גם בזירה הבינלאומית".
 1	נשיאת	נשיא	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nsubj	_	Entity=(TTL
 2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound	_	Entity=(ORG
@@ -10193,8 +10193,8 @@
 57	"	"	PUNCT	PUNCT	_	41	punct	_	SpaceAfter=No
 58	.	.	PUNCT	PUNCT	_	11	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-99
+# newpar
 # text = למתנגדים לפסקת ההתגברות הצטרף עורך הדין היהודי-אמריקאי אלן דרשוביץ, שאמר: "הרשות השופטת בישראל היא התכשיט של הדמוקרטיה הישראלית.
 1-2	למתנגדים	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
@@ -10265,7 +10265,7 @@
 13	ב	ב	ADP	ADP	_	14	case	_	_
 14	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
 15	כלשהי	כלשהו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	14	det	_	_
-16	על	על	ADP	ADP	_	18	case	_	_
+16	על	על	ADP	ADP	ExtPos=ADP	18	case	_	_
 17	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	fixed	_	_
 18	פעולות	פעולה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
 19	של	של	ADP	ADP	Case=Gen	21	case	_	_
@@ -10354,8 +10354,8 @@
 57	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
 58	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_piskat-hitgabrut-102
+# newpar
 # text = צפורי קרא לקדם את 'חוק המשילות' אותו ניסח ואשר מיישם את 'המודל הבריטי' לפיו בית המשפט יכול רק להמליץ לכנסת על שינוי חקיקה בשל אי התאמה לחוק יסוד.
 1	צפורי	צפורי	PROPN	PROPN	_	2	nsubj	_	Entity=(PER)
 2	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -10409,12 +10409,12 @@
 41	יסוד	יסוד	NOUN	NOUN	Gender=Masc|Number=Sing	40	compound	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # newdoc id = iahltwiki_mendele
 # meta::domain = biography
 # meta::sourceURL = https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%93%D7%9C%D7%99_%D7%9E%D7%95%D7%9B%D7%A8_%D7%A1%D7%A4%D7%A8%D7%99%D7%9D
 # meta::title = מנדלי מוכר ספרים
 # sent_id = iahltwiki_mendele-1
+# newpar
 # text = שלום יעקב אברמוביץ', הידוע בשם העט מנדלי מוכר ספרים (ביידיש: מענדעלע, קרי "מֶנְדֶלֶה מוֹיְכֶֿר סְפֿוֹרִים", ברוסית: Соломон Моисеевич Абрамович;‏ 2 בינואר 1836 יוליאני: 21 בדצמבר 1835‏‏ – 8 בדצמבר יוליאני: 25 בנובמבר‏ 1917), היה מחשובי סופרי היידיש והעברית בעת החדשה.
 1	שלום	שלום	PROPN	PROPN	_	59	nsubj	_	Entity=(PER
 2	יעקב	יעקב	PROPN	PROPN	_	1	flat	_	_
@@ -10501,8 +10501,8 @@
 69	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	67	amod	_	_
 70	.	.	PUNCT	PUNCT	_	59	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-2
+# newpar
 # text = מנדלי, שנודע בכינוי "הסבא" של הספרות העברית והיידית המודרנית, היה בן הדור האחרון להשכלה, אולם בהמשך חייו חווה את תקופת חובבי ציון וראשית הציונות, שהשפיעו על יצירתו.
 1	מנדלי	מנדלי	PROPN	PROPN	_	23	nsubj	_	Entity=(PER)|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
@@ -10597,8 +10597,8 @@
 15	ישראל	ישראל	PROPN	PROPN	_	11	obl	_	Entity=(GPE)
 16	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-4
+# newpar
 # text = מקור הכינוי "מנדלי מוכר ספרים"
 1	מקור	מקור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 2-3	הכינוי	_	_	_	_	_	_	_	_
@@ -10610,8 +10610,8 @@
 7	ספרים	ספר	PROPN	PROPN	_	6	compound	_	Entity=PER)|SpaceAfter=No
 8	"	"	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-5
+# newpar
 # text = בשיחה שניהל שלום אברמוביץ' עם הרב מזא"ה הוא סיפר לו כיצד נוצר הכינוי "מנדלי מוכר ספרים":.
 1-2	בשיחה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -10644,8 +10644,8 @@
 24	:	:	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-6
+# newpar
 # text = שלום יעקב אברמוביץ' נולד בעיירה קאפוליע שבקרבת מינסק (כיום בבלארוס) לחיים משה ברוידא.
 1	שלום	שלום	PROPN	PROPN	_	4	nsubj	_	Entity=(PER
 2	יעקב	יעקב	PROPN	PROPN	_	1	flat	_	_
@@ -10686,7 +10686,7 @@
 8	,	,	PUNCT	PUNCT	_	19	punct	_	_
 9-10	ולאחר	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
-10	לאחר	לאחר	ADP	ADP	_	12	mark	_	_
+10	לאחר	לאחר	ADP	ADP	ExtPos=SCONJ	12	mark	_	_
 11-12	שהתייתם	_	_	_	_	_	_	_	_
 11	ש	ש	SCONJ	SCONJ	_	10	fixed	_	_
 12	התייתם	התייתם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past|Voice=Mid	19	advcl	_	_
@@ -10865,8 +10865,8 @@
 19	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
 20	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-11
+# newpar
 # text = לאחר שנתיים בסלוצק שב להתגורר עם אמו בבית בעלה בכפר הקטן מלניק (Mielnik), אז באימפריה הרוסית, כיום בפולין.
 1	לאחר	לאחר	ADP	ADP	_	2	case	_	_
 2	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	5	obl	_	_
@@ -10938,8 +10938,8 @@
 19	תנ"כיים	תנ"כי	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-13
+# newpar
 # text = בהמשך נסע מנדלי לדרום האימפריה הרוסית עם דודתו, בניסיון להתחקות אחרי בעלה הנמלט.
 1-2	בהמשך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
@@ -11193,8 +11193,8 @@
 30	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
 31	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-19
+# newpar
 # text = לאחר שהתגרש מאשתו הראשונה נישא לפסי לוין ונולדו לו 5 ילדים, ארבע בנות ובן.
 1	לאחר	לאחר	ADP	ADP	_	3	case	_	_
 2-3	שהתגרש	_	_	_	_	_	_	_	_
@@ -11343,8 +11343,8 @@
 13	אדוקים	אדוק	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-24
+# newpar
 # text = בערוב ימיו שב לקיום מצוות.
 1-2	בערוב	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -11385,8 +11385,8 @@
 16	נקבר	נקבר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-26
+# newpar
 # text = כשנה לאחר מותו של מנדלי מוכר ספרים פרסמו חיים נחמן ביאליק, ויהושע חנא רבניצקי חוברת לזכרו, תחת הכותרת: "מנדלי מוכר ספרים (שלום בן משה חיים אברמוביץ): קובץ מאמרים על תולדותיו וערכו האישי והספרותי (בצירוף תמונותיו ועצם כתב ידו)".
 1-2	כשנה	_	_	_	_	_	_	_	_
 1	כ	כ	ADV	ADV	_	2	advmod	_	_
@@ -11467,16 +11467,16 @@
 64	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
 65	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-27
+# newpar
 # text = מאפייני יצירתו
 1	מאפייני	מאפיין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
 2-3	יצירתו	_	_	_	_	_	_	_	_
 2	יצירת	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound	_	_
 3	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-28
+# newpar
 # text = בתחילת דרכו בשנות ה-60 של המאה ה-19 הִרבה מנדלי לכתוב ספרי מדע פופולרי, ספרות שימושית, ביקורת ספרים ומאמרים פובליציסטיים שהעסיקו את הציבור היהודי (בעיקר בעיתון "המגיד").
 1-2	בתחילת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -11619,8 +11619,8 @@
 44	מסורתית	מסורתי	ADJ	ADJ	Gender=Fem|Number=Sing	42	amod	_	_
 45	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-31
+# newpar
 # text = מבחינה ספרותית היה מנדלי קשור למסורת המשכילית ולספרות התחייה הלאומית.
 1-2	מבחינה	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	2	case	_	_
@@ -11748,8 +11748,8 @@
 44	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nmod:poss	_	_
 45	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-34
+# newpar
 # text = מנדלי היה פעיל בעיתונים יהודיים של ההשכלה, למרות היותו נתון גם לתחייה היהודית הלאומית והציונית.
 1	מנדלי	מנדלי	PROPN	PROPN	_	3	nsubj	_	Entity=(PER)
 2	היה	היה	AUX	AUX	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|VerbType=Cop	3	cop	_	_
@@ -11805,8 +11805,8 @@
 13	לסירוגין	לסירוגין	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-36
+# newpar
 # text = השפה והלשון ביצירתו
 1-2	השפה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
@@ -11820,8 +11820,8 @@
 7	יצירת	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 8	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-37
+# newpar
 # text = יצירתו של מנדלי הייתה מורכבת גם מבחינה לשונית, בהיותו ממניחי היסודות לספרות היידית המודרנית ולסגנון העברי.
 1-2	יצירתו	_	_	_	_	_	_	_	_
 1	יצירת	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -11864,8 +11864,8 @@
 29	עברי	עברי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
 30	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-38
+# newpar
 # text = מנדלי החל את כתיבתו בעברית כסופר משכילי וכתב ספרות לפי כל כללי העברית המשכילית.
 1	מנדלי	מנדלי	PROPN	PROPN	_	2	nsubj	_	Entity=(PER)
 2	החל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -12070,8 +12070,8 @@
 45	עברית	עברית	PROPN	PROPN	_	40	nmod	_	Entity=ANG)
 46	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-42
+# newpar
 # text = לצורך ספריו העבריים, שהיו בחלקם תרגום של הספרים שכתב ביידיש, נזקק ללשון שתייצג דיבור עממי שוטף, מתובל בהלצות ובתיאורים מפורטים, ואת הצורך הזה סיפק בהשתחררות מכבלי המליצה המקראית המשכילית, בפנייה למטבעות לשון ואוצר מילים חז"ליים ובשילוב מאפיינים תחביריים מן השפות האירופיות.
 1-2	לצורך	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -12176,8 +12176,8 @@
 75	אירופיות	אירופי	ADJ	ADJ	Gender=Fem|Number=Plur	73	amod	_	_
 76	.	.	PUNCT	PUNCT	_	22	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-43
+# newpar
 # text = שפתו של מנדלי נתפסה כ"לשון סינתטית", כלומר, מורכבת מכמה רובדי לשון קודמים ולא כהמשך ישיר של רובד לשון מסוים.
 1-2	שפתו	_	_	_	_	_	_	_	_
 1	שפת	שפה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
@@ -12213,8 +12213,8 @@
 28	מסוים	מסוים	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-44
+# newpar
 # text = בעת האחרונה עברו חוקרים רבים להחזיק בתפיסה שלפיה מהווה לשונו המשך ישיר של הספרות הרבנית והחסידית של תחילת העת החדשה, בליווי תוספת של יסודות חדשים, דקדוקיים בעיקר.
 1-2	בעת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	Definite=Def|PronType=Art	2	case	_	_
@@ -12271,8 +12271,8 @@
 42	בעיקר	בעיקר	ADV	ADV	_	41	advmod	_	SpaceAfter=No
 43	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-45
+# newpar
 # text = יוצר "הנוסח"
 1	יוצר	יוצר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
@@ -12281,8 +12281,8 @@
 4	נוסח	נוסח	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound	_	_
 5	"	"	PUNCT	PUNCT	_	4	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-46
+# newpar
 # text = מנדלי נחשב בעיני רבים כיוצר "הנוסח" של הלשון העברית המתחדשת בספרות.
 1	מנדלי	מנדלי	PROPN	PROPN	_	2	nsubj:pass	_	Entity=(PER)
 2	נחשב	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -12567,8 +12567,8 @@
 15	ם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-57
+# newpar
 # text = הנוסח של מנדלי, כותב החוקר אבנר הולצמן, נעשה מעין תקן מחייב של פרוזה עברית ראויה, הן בתוכנה והן בלשונה.
 1-2	הנוסח	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	Entity=(MISC
@@ -12653,7 +12653,7 @@
 6	הרואיים	הרואי	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	11	punct	_	_
 8	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
-9	בניגוד	בניגוד	ADP	ADP	_	11	case	_	_
+9	בניגוד	בניגוד	ADP	ADP	ExtPos=ADP	11	case	_	_
 10-12	לגיבוריו	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	9	fixed	_	_
 11	גיבורי	גיבור	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
@@ -12778,13 +12778,13 @@
 28	עליכם	עליכם	PROPN	PROPN	_	27	flat	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	17	punct	_	_
 30	אומץ	אומץ	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	conj	_	_
-31	על	על	ADP	ADP	_	33	case	_	_
+31	על	על	ADP	ADP	ExtPos=ADP	33	case	_	_
 32	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	31	fixed	_	_
 33	כל	כול	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-# newpar
 # sent_id = iahltwiki_mendele-62
+# newpar
 # text = מנדלי, טוען יוסף חיים ברנר במאמרו הידוע: "הערכת עצמנו בשלושת הכרכים", היה האמן הראשון שכתב באמת על אודותהיהודים בתקופתו.
 1	מנדלי	מנדלי	PROPN	PROPN	_	24	nsubj	_	Entity=(PER)|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_

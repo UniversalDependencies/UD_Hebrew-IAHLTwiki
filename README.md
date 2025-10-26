@@ -84,6 +84,9 @@ Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave 
 
 # Changelog
 
+* 2025-11-15 v.217
+  * Added ExtPos and numerous corrections
+
 * 2024-11-15 v2.15
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
      * This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
