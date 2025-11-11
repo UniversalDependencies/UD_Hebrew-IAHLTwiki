@@ -33,13 +33,17 @@
     <tag name="X">304</tag><!-- דו, מז'ור, מינור, סטטוס, קוו, GCS, the, ABA', ABABA', במול -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="52">
+  <feats unique="56">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,PROPN">515</feat><!-- אונר"א, מק"ם, או"ם, דו"ח, בג"ץ, מעו"ף, ש"ח, צה"ל, ד"ר, נ"ט -->
     <feat name="Aspect" value="Prog" upos="VERB">47</feat><!-- ניתן, פוגעת, גורם, גורמים, דורכת, הולכת, הסעירה, ידוע, כותבים, כרוכה -->
     <feat name="Case" value="Acc" upos="ADP,PRON">856</feat><!-- את, אות, ו, אותה, ם, אותו, ה, ני, אֶת, אֹת -->
     <feat name="Case" value="Gen" upos="ADP,PRON">4607</feat><!-- של, ו, ה, ם, הם, ן, הן, י, נו, ך -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,PROPN">11014</feat><!-- בית, שנת, ידי, כל, פי, שנות, שני, ארץ, סוג, ועדת -->
     <feat name="Definite" value="Def" upos="ADP,DET,PRON">18515</feat><!-- ה, ב, ו, ל, ם, אותה, הם, כ, ן, אותו -->
+    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,NOUN,SCONJ,VERB">950</feat><!-- על, ב, מ, עד, מתחת, אל, יחד, ל, בניגוד, החל -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,DET,NOUN,SCONJ,X">178</feat><!-- ב, קודם, ל, עד, יותר, מאוחר, על, כמו, לאחר, פחות -->
+    <feat name="ExtPos" value="CCONJ" upos="ADP,CCONJ">8</feat><!-- ו, כמו -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,CCONJ,PRON,SCONJ,VERB">268</feat><!-- על, עד, כפי, לאחר, כיוון, כך, אם, אף, ככל, מאחר -->
     <feat name="Foreign" value="Yes" upos="X">118</feat><!-- the, District, Pottery, אלגרו, Allegro, Bank, Commissioner, Palestine, Penicillium, Studio -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">22243</feat><!-- ה, שנת, ידי, היא, זו, סוכרת, שנים, הייתה, הן, זאת -->
     <feat name="Gender" value="Fem,Masc" upos="AUX,NOUN,NUM,PRON,VERB">171</feat><!-- אלו, היו, פני, אני, החלו, נערכו, עמדו, הגיעו, טענו, י -->
@@ -78,7 +82,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">410</feat><!-- יהיה, תהיה, יהיו, תוכל, תשלם, יאפשר, ייתכן, יקבלו, ישלמו, תוביל -->
     <feat name="Tense" value="Past" upos="AUX,VERB">6333</feat><!-- היה, היו, הייתה, כתב, הלחין, יצא, זכה, החל, החלו, כלל -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">2618</feat><!-- ניתן, כולל, מדובר, מהווה, מכונה, נמצא, נראה, עולה, גורם, נמצאים -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,PUNCT,VERB,X">113</feat><!-- איפשר, הייתה, היה, הם, זה, לדה, מינהלית, מסים, מעין, נייטרון -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,NOUN,PRON,PUNCT,VERB,X">62</feat><!-- איפשר, הייתה, היה, זה, נייטרון, נייטרליות, ', א, אב, אחר -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1559</feat><!-- להיות, לקבל, לגרום, למנוע, לבצע, ליצור, להופיע, לתת, למצוא, לאפשר -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">2730</feat><!-- ניתן, כולל, מדובר, מהווה, מכונה, יכול, נמצא, נראה, אינה, עולה -->
     <feat name="VerbType" value="Cop" upos="AUX">266</feat><!-- היה, הייתה, היו, תהיה, יהיה, להיות, יהיו, אינה, אינו, הייתי -->
@@ -92,39 +96,39 @@
     <dep name="acl">351</dep>
     <dep name="acl:relcl">3065</dep>
     <dep name="advcl">675</dep>
-    <dep name="advmod">3133</dep>
+    <dep name="advmod">3132</dep>
     <dep name="amod">7443</dep>
     <dep name="appos">1702</dep>
     <dep name="aux">411</dep>
-    <dep name="case">22529</dep>
-    <dep name="cc">4651</dep>
+    <dep name="case">22531</dep>
+    <dep name="cc">4652</dep>
     <dep name="ccomp">370</dep>
     <dep name="compound">10380</dep>
     <dep name="compound:affix">211</dep>
-    <dep name="conj">5750</dep>
+    <dep name="conj">5752</dep>
     <dep name="cop">877</dep>
     <dep name="csubj">201</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="csubj:pass">82</dep>
     <dep name="dep">244</dep>
-    <dep name="det">14819</dep>
+    <dep name="det">14816</dep>
     <dep name="discourse">5</dep>
     <dep name="dislocated">24</dep>
     <dep name="expl">1</dep>
-    <dep name="fixed">1628</dep>
+    <dep name="fixed">1626</dep>
     <dep name="flat">1870</dep>
     <dep name="goeswith">1</dep>
     <dep name="list">15</dep>
-    <dep name="mark">4191</dep>
-    <dep name="nmod">6179</dep>
+    <dep name="mark">4192</dep>
+    <dep name="nmod">6183</dep>
     <dep name="nmod:poss">4459</dep>
     <dep name="nmod:unmarked">399</dep>
-    <dep name="nsubj">5888</dep>
+    <dep name="nsubj">5892</dep>
     <dep name="nsubj:outer">92</dep>
     <dep name="nsubj:pass">860</dep>
     <dep name="nummod">1149</dep>
-    <dep name="obj">3028</dep>
-    <dep name="obl">10901</dep>
+    <dep name="obj">3019</dep>
+    <dep name="obl">10900</dep>
     <dep name="obl:unmarked">137</dep>
     <dep name="orphan">106</dep>
     <dep name="parataxis">665</dep>
@@ -132,6 +136,6 @@
     <dep name="reparandum">21</dep>
     <dep name="root">5039</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">790</dep>
+    <dep name="xcomp">792</dep>
   </deps>
 </treebank>
