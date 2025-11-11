@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Hebrew-IAHLTwiki:
-commit 3ccc47704ef9d7d28675a46a1bf85d8a3b0e6ac4
+commit b5f5274d8d99d51637522228705695bc18a326e7
+Merge: 9b12741 362f46f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:37:41 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'he_iahltwiki'
+Language code (from CoNLL-U file name) = 'he'
+Found the following data files: he_iahltwiki-ud-dev.conllu, he_iahltwiki-ud-test.conllu, he_iahltwiki-ud-train.conllu
 Size: counted 140961 of 140961 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.89696651274766.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,88 +19,61 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 83414 out of 140961 total words have one or more features.
+Features: 84766 out of 140961 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       9319
-Udapi: found 9319 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 140961 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-dev.conllu
-[Line 69 Sent iahltwiki_fresh-frozen-plasma-3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'לפני ש' does not have the 'ExtPos' feature
-[Line 95 Sent iahltwiki_fresh-frozen-plasma-4 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 198 Sent iahltwiki_fresh-frozen-plasma-9 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ב מהלך' does not have the 'ExtPos' feature
-[Line 394 Sent iahltwiki_fresh-frozen-plasma-16 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'ב מהלך' does not have the 'ExtPos' feature
-[Line 440 Sent iahltwiki_fresh-frozen-plasma-18 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'על מנת' does not have the 'ExtPos' feature
-[Line 515 Sent iahltwiki_fresh-frozen-plasma-21 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'על מנת' does not have the 'ExtPos' feature
-[Line 789 Sent iahltwiki_fresh-frozen-plasma-31 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 798 Sent iahltwiki_fresh-frozen-plasma-31 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 872 Sent iahltwiki_fresh-frozen-plasma-33 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'אם כי' does not have the 'ExtPos' feature
-[Line 930 Sent iahltwiki_fresh-frozen-plasma-35 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'לאחר ש' does not have the 'ExtPos' feature
+[Line 326 Sent iahltwiki_fresh-frozen-plasma-14]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 468 Sent iahltwiki_fresh-frozen-plasma-19]: [L3 Warning pron-det-without-prontype] The word 'מעט' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1103 Sent iahltwiki_fresh-frozen-plasma-42]: [L3 Warning pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1115 Sent iahltwiki_fresh-frozen-plasma-43]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1119 Sent iahltwiki_fresh-frozen-plasma-43]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'גורמים') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1459 Sent iahltwiki_fresh-frozen-plasma-53]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2121 Sent iahltwiki_bird-mosaic-10]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2691 Sent iahltwiki_bird-mosaic-26]: [L3 Warning pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3287 Sent iahltwiki_bird-mosaic-42]: [L3 Warning pron-det-without-prontype] The word 'כולו' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3483 Sent iahltwiki_bird-mosaic-46]: [L3 Warning pron-det-without-prontype] The word 'שאר' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 2238 Sent iahltwiki_bird-mosaic-13 Node 1]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' word 'נכון'
-[Line 5987 Sent iahltwiki_reidat-haadama-bemifratz-eilat-1995-5 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-Syntax errors: 2
-Warnings: 80
-*** FAILED *** with 2 errors
-Exit code: 1
+Warnings: 37
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-test.conllu
-[Line 47 Sent iahltwiki_dialysis-1 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'בין אם' does not have the 'ExtPos' feature
-[Line 118 Sent iahltwiki_dialysis-2 Node 39]: [L3 Warning fixed-without-extpos] Fixed expression 'עד ל' does not have the 'ExtPos' feature
-[Line 422 Sent iahltwiki_dialysis-11 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'לאחר מ' does not have the 'ExtPos' feature
-[Line 457 Sent iahltwiki_dialysis-13 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'מ חוץ ל' does not have the 'ExtPos' feature
-[Line 551 Sent iahltwiki_dialysis-16 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 607 Sent iahltwiki_dialysis-17 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'ב דרך כלל' does not have the 'ExtPos' feature
-[Line 902 Sent iahltwiki_dialysis-24 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'לאחר מ' does not have the 'ExtPos' feature
-[Line 909 Sent iahltwiki_dialysis-24 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'מ חוץ ל' does not have the 'ExtPos' feature
-[Line 1136 Sent iahltwiki_dialysis-32 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'ב נוסף' does not have the 'ExtPos' feature
-[Line 1136 Sent iahltwiki_dialysis-32 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 1335 Sent iahltwiki_dialysis-43 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
+[Line 565 Sent iahltwiki_dialysis-16]: [L3 Warning pron-det-without-prontype] The word 'מה' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 779 Sent iahltwiki_dialysis-21]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 928 Sent iahltwiki_dialysis-25]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1625 Sent iahltwiki_dialysis-57]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1663 Sent iahltwiki_dialysis-59]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1669 Sent iahltwiki_dialysis-59]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'נזקקים') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2287 Sent iahltwiki_unrwa-2]: [L3 Warning pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2340 Sent iahltwiki_unrwa-3]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'פעם') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2945 Sent iahltwiki_unrwa-20]: [L3 Warning pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3585 Sent iahltwiki_unrwa-40]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 10746 Sent iahltwiki_psak-din-hendelman-10 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 10989 Sent iahltwiki_psak-din-hendelman-15 Node 32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'עד'
-Syntax errors: 3
-Warnings: 126
-*** FAILED *** with 3 errors
-Exit code: 1
+Warnings: 39
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-train.conllu
-[Line 69 Sent iahltwiki_glasgow-coma-scale-2 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'על פי' does not have the 'ExtPos' feature
-[Line 109 Sent iahltwiki_glasgow-coma-scale-4 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'על מנת' does not have the 'ExtPos' feature
-[Line 143 Sent iahltwiki_glasgow-coma-scale-4 Node 37]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 360 Sent iahltwiki_glasgow-coma-scale-11 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'בעוד ש' does not have the 'ExtPos' feature
-[Line 578 Sent iahltwiki_glasgow-coma-scale-23 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'כפי ש' does not have the 'ExtPos' feature
-[Line 700 Sent iahltwiki_glasgow-coma-scale-27 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'כך ש' does not have the 'ExtPos' feature
-[Line 860 Sent iahltwiki_glasgow-coma-scale-35 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'כיוון ש' does not have the 'ExtPos' feature
-[Line 958 Sent iahltwiki_glasgow-coma-scale-37 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'פחות מ' does not have the 'ExtPos' feature
-[Line 1080 Sent iahltwiki_glasgow-coma-scale-45 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'יחסית ל' does not have the 'ExtPos' feature
-[Line 1237 Sent iahltwiki_amphetamine-3 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'יחד עם' does not have the 'ExtPos' feature
+[Line 56 Sent iahltwiki_glasgow-coma-scale-2]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 209 Sent iahltwiki_glasgow-coma-scale-6]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 543 Sent iahltwiki_glasgow-coma-scale-20]: [L3 Warning pron-det-without-prontype] The word 'לא' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 903 Sent iahltwiki_glasgow-coma-scale-35]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1855 Sent iahltwiki_amphetamine-22]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'מרשם') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2161 Sent iahltwiki_amphetamine-30]: [L3 Warning pron-det-without-prontype] The word 'כן' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2804 Sent iahltwiki_amphetamine-51]: [L3 Warning pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2905 Sent iahltwiki_amphetamine-54]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2923 Sent iahltwiki_amphetamine-54]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3830 Sent iahltwiki_sal-habriut-22]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 2086 Sent iahltwiki_amphetamine-28 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'כמו'
-[Line 2123 Sent iahltwiki_amphetamine-30 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 2160 Sent iahltwiki_amphetamine-30 Node 30]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'כמו'
-[Line 2396 Sent iahltwiki_amphetamine-37 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ככל'
-[Line 2618 Sent iahltwiki_amphetamine-44 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 5341 Sent iahltwiki_mammography-5 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 7065 Sent iahltwiki_mammography-43 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 7323 Sent iahltwiki_mammography-48 Node 58]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ב'
-[Line 8703 Sent iahltwiki_penicillin-3 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'לאחר'
-[Line 8819 Sent iahltwiki_penicillin-6 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'עד'
-...suppressing further errors regarding Syntax
-Syntax errors: 95
-Warnings: 1210
-*** FAILED *** with 95 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.716366324011263) = 0.183683672823401
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.338895155397592) = 0.104275432430028
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.625601000542383) * (availability=1) * (validity=0.01) = 0.00625601000542383
-STARS = 0
-UD_Hebrew-IAHLTwiki	0.00625601000542383	0
+Warnings: 362
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.716366324011263) = 0.265320860744912
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.753025820606735) * (availability=1) * (validity=1) = 0.753025820606735
+STARS = 4
+UD_Hebrew-IAHLTwiki	0.753025820606735	4
