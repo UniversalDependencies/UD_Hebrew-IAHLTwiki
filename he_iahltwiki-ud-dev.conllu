@@ -1116,7 +1116,7 @@
 7	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	10	case	_	_
-10	ירידת	ירידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+10	ירידת	ירידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	הזמינות	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
 12	זמינות	זמינות	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound	_	_
@@ -8021,7 +8021,7 @@
 19	תומכים	תומך	NOUN	NOUN	Gender=Masc|Number=Plur	22	obl	_	_
 20-21	בהצעה	_	_	_	_	_	_	_	_
 20	ב	ב	ADP	ADP	Definite=Def|PronType=Art	21	case	_	_
-21	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+21	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
 22	יש	יש	VERB	VERB	Polarity=Pos	0	root	_	_
 23	מחלוקת	מחלוקת	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
 24	האם	האם	SCONJ	SCONJ	_	25	mark	_	_
@@ -10703,7 +10703,7 @@
 21	ישיבות	ישיבה	NOUN	NOUN	Gender=Fem|Number=Plur	19	obl	_	_
 22-23	בטימקוביץ'	_	_	_	_	_	_	_	SpaceAfter=No
 22	ב	ב	ADP	ADP	_	23	case	_	_
-23	טימקוביץ'	טימקוביץ'	PROPN	PROPN	_	21	obl	_	Entity=(GPE)
+23	טימקוביץ'	טימקוביץ'	PROPN	PROPN	_	21	nmod	_	Entity=(GPE)
 24	,	,	PUNCT	PUNCT	_	26	punct	_	_
 25-26	בסלוּצק	_	_	_	_	_	_	_	_
 25	ב	ב	ADP	ADP	_	26	case	_	_
@@ -11046,7 +11046,7 @@
 24	סובלת	סובל	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
 25-26	ממחלת	_	_	_	_	_	_	_	_
 25	מ	מ	ADP	ADP	_	26	case	_	_
-26	מחלת	מחלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+26	מחלת	מחלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nmod	_	_
 27	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -11552,7 +11552,7 @@
 9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
 10	יהודית	יהודי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
 11-12	ברוסיה	_	_	_	_	_	_	_	SpaceAfter=No
-11	ב	ב	ADP	ADP	_	12	obl	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
 12	רוסיה	רוסיה	PROPN	PROPN	_	8	obl	_	Entity=(GPE)
 13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -12261,7 +12261,7 @@
 33	,	,	PUNCT	PUNCT	_	35	punct	_	_
 34-35	בליווי	_	_	_	_	_	_	_	_
 34	ב	ב	ADP	ADP	_	35	case	_	_
-35	ליווי	ליווי	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+35	ליווי	ליווי	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 36	תוספת	תוספת	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound	_	_
 37	של	של	ADP	ADP	Case=Gen	38	case	_	_
 38	יסודות	יסוד	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod:poss	_	_
