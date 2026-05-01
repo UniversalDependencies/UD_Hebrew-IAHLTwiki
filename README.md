@@ -46,18 +46,18 @@ The data additionally contains *nested* Named Entity annotations in the IAHLT sc
 
 Entity types cover the following categories:
 
-  * ANG - language 
-  * DUC - product 
-  * EVE - event 
-  * FAC - facility 
-  * GPE - geo-political entity 
-  * LOC - location 
-  * ORG - organization 
-  * PER - person 
-  * TIMEX - time expression 
+  * ANG - language
+  * DUC - product
+  * EVE - event
+  * FAC - facility
+  * GPE - geo-political entity
+  * LOC - location
+  * ORG - organization
+  * PER - person
+  * TIMEX - time expression
   * TTL - title
-  * WOA - work of art 
-  * MISC - miscellaneous 
+  * WOA - work of art
+  * MISC - miscellaneous
 
 # Acknowledgments
 
@@ -84,7 +84,10 @@ Zeldes, Amir, Nick Howell, Noam Ordan and Yifat Ben Moshe (2022) [A Second Wave 
 
 # Changelog
 
-* 2025-11-15 v.217
+* 2026-04-30 v2.18
+  * Minor corrections
+
+* 2025-11-15 v2.17
   * Added ExtPos and numerous corrections
 
 * 2024-11-15 v2.15
