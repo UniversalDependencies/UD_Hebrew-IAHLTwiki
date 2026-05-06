@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Hebrew-IAHLTwiki:
-commit b5f5274d8d99d51637522228705695bc18a326e7
-Merge: 9b12741 362f46f
+commit bba6c72764461a059164212c81ee6bbf31ccb3ae
+Merge: 29402e7 35a1faf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'he_iahltwiki'
@@ -25,46 +25,57 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-dev.conllu
-[Line 326 Sent iahltwiki_fresh-frozen-plasma-14]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 468 Sent iahltwiki_fresh-frozen-plasma-19]: [L3 Warning pron-det-without-prontype] The word 'מעט' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1103 Sent iahltwiki_fresh-frozen-plasma-42]: [L3 Warning pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1115 Sent iahltwiki_fresh-frozen-plasma-43]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1119 Sent iahltwiki_fresh-frozen-plasma-43]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'גורמים') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1459 Sent iahltwiki_fresh-frozen-plasma-53]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2121 Sent iahltwiki_bird-mosaic-10]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2691 Sent iahltwiki_bird-mosaic-26]: [L3 Warning pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3287 Sent iahltwiki_bird-mosaic-42]: [L3 Warning pron-det-without-prontype] The word 'כולו' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 3483 Sent iahltwiki_bird-mosaic-46]: [L3 Warning pron-det-without-prontype] The word 'שאר' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 37
+[Line 326 Sent iahltwiki_fresh-frozen-plasma-14]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 468 Sent iahltwiki_fresh-frozen-plasma-19]: [L3 WARNING pron-det-without-prontype] The word 'מעט' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1103 Sent iahltwiki_fresh-frozen-plasma-42]: [L3 WARNING pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1115 Sent iahltwiki_fresh-frozen-plasma-43]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1459 Sent iahltwiki_fresh-frozen-plasma-53]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2121 Sent iahltwiki_bird-mosaic-10]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2691 Sent iahltwiki_bird-mosaic-26]: [L3 WARNING pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3287 Sent iahltwiki_bird-mosaic-42]: [L3 WARNING pron-det-without-prontype] The word 'כולו' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3483 Sent iahltwiki_bird-mosaic-46]: [L3 WARNING pron-det-without-prontype] The word 'שאר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4725 Sent iahltwiki_pinkwashing-25]: [L3 WARNING pron-det-without-prontype] The word 'מי' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 31
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-test.conllu
-[Line 565 Sent iahltwiki_dialysis-16]: [L3 Warning pron-det-without-prontype] The word 'מה' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 779 Sent iahltwiki_dialysis-21]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 928 Sent iahltwiki_dialysis-25]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1625 Sent iahltwiki_dialysis-57]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1663 Sent iahltwiki_dialysis-59]: [L3 Warning pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1669 Sent iahltwiki_dialysis-59]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'נזקקים') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2287 Sent iahltwiki_unrwa-2]: [L3 Warning pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2340 Sent iahltwiki_unrwa-3]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'פעם') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2945 Sent iahltwiki_unrwa-20]: [L3 Warning pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3585 Sent iahltwiki_unrwa-40]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 39
+[Line 565 Sent iahltwiki_dialysis-16]: [L3 WARNING pron-det-without-prontype] The word 'מה' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 779 Sent iahltwiki_dialysis-21]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 928 Sent iahltwiki_dialysis-25]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1625 Sent iahltwiki_dialysis-57]: [L3 WARNING pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1663 Sent iahltwiki_dialysis-59]: [L3 WARNING pron-det-without-prontype] The word 'מרבית' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2287 Sent iahltwiki_unrwa-2]: [L3 WARNING pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2945 Sent iahltwiki_unrwa-20]: [L3 WARNING pron-det-without-prontype] The word 'כלל' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3145 Sent iahltwiki_unrwa-26]: [L3 WARNING fixed-without-extpos] Fixed expression 'נכון ל' does not have the 'ExtPos' feature
+[Line 3585 Sent iahltwiki_unrwa-40]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3586 Sent iahltwiki_unrwa-40]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3952 Sent iahltwiki_unrwa-50]: [L3 WARNING pron-det-without-prontype] The word 'יתר' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 10919 Sent iahltwiki_psak-din-hendelman-14]: [L3 WARNING fixed-without-extpos] Fixed expression 'קל ו חומר' does not have the 'ExtPos' feature
+Warnings: 37
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTwiki/he_iahltwiki-ud-train.conllu
-[Line 56 Sent iahltwiki_glasgow-coma-scale-2]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 209 Sent iahltwiki_glasgow-coma-scale-6]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 543 Sent iahltwiki_glasgow-coma-scale-20]: [L3 Warning pron-det-without-prontype] The word 'לא' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 903 Sent iahltwiki_glasgow-coma-scale-35]: [L3 Warning pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1855 Sent iahltwiki_amphetamine-22]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'מרשם') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2161 Sent iahltwiki_amphetamine-30]: [L3 Warning pron-det-without-prontype] The word 'כן' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 2804 Sent iahltwiki_amphetamine-51]: [L3 Warning pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2905 Sent iahltwiki_amphetamine-54]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2923 Sent iahltwiki_amphetamine-54]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3830 Sent iahltwiki_sal-habriut-22]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 362
+[Line 56 Sent iahltwiki_glasgow-coma-scale-2]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 209 Sent iahltwiki_glasgow-coma-scale-6]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 543 Sent iahltwiki_glasgow-coma-scale-20]: [L3 WARNING pron-det-without-prontype] The word 'לא' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 903 Sent iahltwiki_glasgow-coma-scale-35]: [L3 WARNING pron-det-without-prontype] The word 'מספר' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2161 Sent iahltwiki_amphetamine-30]: [L3 WARNING pron-det-without-prontype] The word 'כן' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2804 Sent iahltwiki_amphetamine-51]: [L3 WARNING pron-det-without-prontype] The word 'רוב' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2905 Sent iahltwiki_amphetamine-54]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2923 Sent iahltwiki_amphetamine-54]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3830 Sent iahltwiki_sal-habriut-22]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4273 Sent iahltwiki_sal-habriut-33]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4439 Sent iahltwiki_sal-habriut-44]: [L3 WARNING fixed-without-extpos] Fixed expression 'כ דומה' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 12340 Sent iahltwiki_penicillin-112]: [L3 WARNING fixed-gap] Gaps in fixed expression [13, 19] 'עד * * * * * ל'
+[Line 91963 Sent iahltwiki_mashber-menayot-habankim-27]: [L3 WARNING fixed-without-extpos] Fixed expression 'כ דומה' does not have the 'ExtPos' feature
+[Line 92915 Sent iahltwiki_mashber-menayot-habankim-43]: [L3 WARNING fixed-without-extpos] Fixed expression 'עוד ו עוד' does not have the 'ExtPos' feature
+[Line 97692 Sent iahltwiki_hakrav-al-husheniya-1973-17]: [L3 WARNING fixed-without-extpos] Fixed expression 'לאחר מ כן' does not have the 'ExtPos' feature
+[Line 136259 Sent iahltwiki_reparations-agreement-136]: [L3 WARNING fixed-without-extpos] Fixed expression 'כמה מ' does not have the 'ExtPos' feature
+[Line 136797 Sent iahltwiki_reparations-agreement-148]: [L3 WARNING fixed-without-extpos] Fixed expression 'אם כי' does not have the 'ExtPos' feature
+[Line 143143 Sent iahltwiki_arik-zeevi-28]: [L3 WARNING fixed-without-extpos] Fixed expression 'יוצאת דופן' does not have the 'ExtPos' feature
+[Line 148286 Sent iahltwiki_arik-einstein-81]: [L3 WARNING fixed-without-extpos] Fixed expression 'לאחר מ כן' does not have the 'ExtPos' feature
+Warnings: 320
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
