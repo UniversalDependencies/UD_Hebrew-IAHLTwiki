@@ -1666,7 +1666,7 @@
 3	נזקקים	נזקק	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
 4-5	לטיפולי	_	_	_	_	_	_	_	_
 4	ל	ל	ADP	ADP	_	5	case	_	_
-5	טיפולי	טיפול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+5	טיפולי	טיפול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod	_	_
 6	דיאליזה	דיאליזה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	_
 7-8	בישראל	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
@@ -2337,7 +2337,7 @@
 12-13	בשלוש	_	_	_	_	_	_	_	_
 12	ב	ב	ADP	ADP	_	14	case	_	_
 13	שלוש	שלוש	NUM	NUM	Gender=Fem|NumType=Card	14	nummod	_	_
-14	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obl	_	_
+14	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod	_	_
 15	מחודש	חודש	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
 16-17	המנדט	_	_	_	_	_	_	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
@@ -3144,7 +3144,7 @@
 # text = נכון לשנת 2014, הגדרת הפליט של אונר"א אינה עוסקת בהגנה על פליטים אלא במתן שירותים בשנת 2019' לפי רישומי אונר"א, 5.6 מיליון אנשים הזכאים לסיועה.
 1	נכון	נכון	ADV	ADV	_	3	case	_	_
 2-3	לשנת	_	_	_	_	_	_	_	_
-2	ל	ל	ADP	ADP	_	1	obl	_	_
+2	ל	ל	ADP	ADP	_	1	fixed	_	_
 3	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	Entity=(TIMEX
 4	2014	2014	NUM	NUM	_	3	nummod	_	Entity=TIMEX)|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -10666,7 +10666,7 @@
 8	,	,	PUNCT	PUNCT	_	12	punct	_	_
 9-11	ובהן	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
-10	ב	ב	ADP	ADP	_	11	obl	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
 11	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
 12	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
 13-14	בתואר	_	_	_	_	_	_	_	_
